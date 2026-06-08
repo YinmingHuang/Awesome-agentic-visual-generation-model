@@ -263,3 +263,4 @@ A curated collection of broader related works, including 3D-controllable generat
 | **[Large Language Models are Universal Reasoners for Visual Generation](https://arxiv.org/abs/2605.04040)** <br> *S. Ren et al.* | [![arXiv](https://img.shields.io/badge/arXiv-2605.04040-b31b1b.svg)](https://arxiv.org/abs/2605.04040) | - | - | arXiv, 2026 |
 
 [⬆Back to Top](#-table-of-contents)
+# Awesome-agentic-visual-generation-model
