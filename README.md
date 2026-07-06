@@ -6,6 +6,7 @@ A curated list of research papers and open-source resources for Agentic and LLM-
 ---
 
 ## 📅 News
+* **[2026/07]** Added a dedicated Agentic Image Editing section, covering programmatic editing, toolpath planning, layer-aware editing, aesthetic planning, adaptive task reformulation, and closed-loop refinement.
 * **[2026/06]** Updated newly released papers from mid-2026 (e.g., APE, GenClaw, MetaPoint).
 * **[2025/12]** Structured the repository to categorize prompt engineering, planning, verification, and orchestration.
 
@@ -50,7 +51,7 @@ mindmap
       [Iterative Refinement]
         Multi-Agent Iterative Refine; Generation Navigator; MLLM-Guided Correction
 
-    Module 4: Interactive Collaboration<br/>_Multi-turn dialogue, user-agent co-creation_
+    Module 4: Multi-Agent Interactive Collaboration<br/>_Multi-turn dialogue, user-agent co-creation_
       [Multi-Turn Dialogue Systems]
         Visual ChatGPT; DiffChat; DialogGen; Talk2Image; coDrawAgents
       [Story Visualization]
@@ -78,7 +79,7 @@ mindmap
       [Retrieval-Augmented Gen]
         Re-Imagen; RealRAG; ImageRAG; Cross-modal RAG
       [Image Editing]
-        Image Editing As Programs; Plug-and-Play Editing
+        Image Editing As Programs; Plug-and-Play Editing; Agent Banana; PhotoAgent; EditRefiner
       [Miscellaneous]
         Region-Aware T2I; VisualPrompter; Collaborative MARL; Policy Optimized Pipeline; Show, Don't Tell; Unleashing LLMs via AR Alignment; Bifrost-1; LLMs as Universal Reasoners
 ```
@@ -88,9 +89,10 @@ mindmap
 * [Module 1: Semantic Understanding and Prompt Enhancement](#module-1-semantic-understanding-and-prompt-enhancement)
 * [Module 2: Planning and Compositional Control](#module-2-planning-and-compositional-control)
 * [Module 3: Feedback Verification and Iterative Refinement](#module-3-feedback-verification-and-iterative-refinement)
-* [Module 4: Interactive Collaboration](#module-4-interactive-collaboration)
+* [Module 4: Multi-Agent Interactive Collaboration](#module-4-multi-agent-interactive-collaboration)
 * [Module 5: System Integration and Orchestration](#module-5-system-integration-and-orchestration)
 * [Other Related Works](#other-related-works)
+* [Part 2: Agentic Image Editing](#part-2-agentic-image-editing)
 
 ---
 
@@ -183,9 +185,9 @@ Explores methodologies for evaluating generated images (using reward models or V
 
 ---
 
-### Module 4: Interactive Collaboration
+### Module 4: Multi-Agent Interactive Collaboration
 
-Focuses on multi-turn dialogue systems and interactive collaboration frameworks, enabling users to direct, edit, and visualize complex narratives or retrieve images progressively through natural conversation with agents.
+Focuses on multi-turn dialogue systems and multi-agent interactive collaboration frameworks, enabling users to direct, edit, and visualize complex narratives or retrieve images progressively through natural conversation with agents.
 
 | Title & Authors | Paper | Github | Website | Venue & Date |
 | :--- | :---: | :---: | :---: | :---: |
@@ -263,4 +265,146 @@ A curated collection of broader related works, including 3D-controllable generat
 | **[Large Language Models are Universal Reasoners for Visual Generation](https://arxiv.org/abs/2605.04040)** <br> *S. Ren et al.* | [![arXiv](https://img.shields.io/badge/arXiv-2605.04040-b31b1b.svg)](https://arxiv.org/abs/2605.04040) | - | - | arXiv, 2026 |
 
 [⬆Back to Top](#-table-of-contents)
-# Awesome-agentic-visual-generation-model
+
+---
+
+## Part 2: Agentic Image Editing
+
+This section focuses on agentic workflows for instruction-guided image editing. Compared with text-to-image generation, image editing agents must preserve non-target regions, reason over the source image, decompose edit instructions into localized operations, choose among editing tools, and verify whether each edit satisfies both user intent and visual consistency.
+
+### Editing Mind Map:
+
+```mermaid
+mindmap
+  root((Agentic Image Editing))
+    Task Reformulation & Instruction Decomposition
+      Adaptive Task Reformulation
+      Image Editing As Programs
+      ARTIE
+      MGIE
+      X-Planner
+      SmartEdit
+      MCIE
+      PRG
+      InferEdit
+      InstructAny2Pix
+    Tool Planning & Multi-Turn Editing
+      CoSTA*
+      LLM-LVLM Iterative Editing Agent
+      Visual ChatGPT
+      Talk2Image
+      GenArtist
+    Layer-Aware & Professional Editing
+      Agent Banana
+      PhotoAgent
+      Agentic Retoucher
+      MIND-Edit
+      PromptArtisan
+    Verification & Refinement
+      EditRefiner
+      MIRA
+      ImageEdit-R1
+      CAMEO
+      EditThinker
+      MAIR
+      Multi-Agent Iterative Refinement
+    Unified Generation-Editing Agents
+      RS-Gen
+      InterleaveThinker
+      UniReason
+      GoT
+      Crafter
+```
+
+### Editing Taxonomy
+
+* [Task Reformulation and Programmatic Editing](#task-reformulation-and-programmatic-editing)
+* [Tool Planning and Multi-Turn Editing](#tool-planning-and-multi-turn-editing)
+* [Layer-Aware and Professional Editing](#layer-aware-and-professional-editing)
+* [Verification and Closed-Loop Refinement](#verification-and-closed-loop-refinement)
+* [Unified Generation-Editing Agents](#unified-generation-editing-agents)
+
+---
+
+### Task Reformulation and Programmatic Editing
+
+This category treats image editing failures as failures of task formulation, decomposition, or executable intermediate representation. The agent transforms a high-level edit instruction into atomic operations, structured programs, or reformulated subtasks before calling an editing backbone.
+
+| Title & Authors | Paper | Github | Website | Venue & Date |
+| :--- | :---: | :---: | :---: | :---: |
+| **[Image Editing As Programs with Diffusion Models](https://arxiv.org/abs/2506.04158)** <br> *Y. Hu, S. Liu, Z. Tan, X. Yang, X. Wang* | [![arXiv](https://img.shields.io/badge/arXiv-2506.04158-b31b1b.svg)](https://arxiv.org/abs/2506.04158) | [![Star](https://img.shields.io/github/stars/YujiaHu1109/IEAP.svg?style=social&label=Star)](https://github.com/YujiaHu1109/IEAP) | [![Website](https://img.shields.io/badge/Website-9cf)](https://yujiahu1109.github.io/IEAP/) | NeurIPS, 2025 |
+| **[A Plug-and-Play Agentic Framework for Text Guided Image Editing](https://openreview.net/forum?id=EPAuWPVcZQ)** <br> *D. Bandyopadhyay et al.* | [![Paper](https://img.shields.io/badge/Paper-OpenReview-blue.svg)](https://openreview.net/forum?id=EPAuWPVcZQ) | - | - | ICLR Submission, 2026 |
+| **[Making Image Editing Easier via Adaptive Task Reformulation with Agentic Executions](https://arxiv.org/abs/2604.15917)** <br> *B. Zhao, K. Guo, R. Du, H. Sun, P. Wang, H. Yang, K. Gai, Y. Cao, W. Ji* | [![arXiv](https://img.shields.io/badge/arXiv-2604.15917-b31b1b.svg)](https://arxiv.org/abs/2604.15917) | - | - | arXiv, 2026 |
+| **[Guiding Instruction-based Image Editing via Multimodal Large Language Models](https://arxiv.org/abs/2309.17102)** <br> *T.-J. Fu, W. Hu, X. Du, W. Y. Wang, Y. Yang, Z. Gan* | [![arXiv](https://img.shields.io/badge/arXiv-2309.17102-b31b1b.svg)](https://arxiv.org/abs/2309.17102) | [![Star](https://img.shields.io/github/stars/apple/ml-mgie.svg?style=social&label=Star)](https://github.com/apple/ml-mgie) | - | ICLR, 2024 |
+| **[Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs](https://arxiv.org/abs/2401.11708)** <br> *L. Yang et al.* | [![arXiv](https://img.shields.io/badge/arXiv-2401.11708-b31b1b.svg)](https://arxiv.org/abs/2401.11708) | - | - | arXiv, 2024 |
+| **[Beyond Simple Edits: X-Planner for Complex Instruction-Based Image Editing](https://arxiv.org/abs/2507.05259)** <br> *C.-H. Yeh, Y. Wang, N. Zhao, R. Zhang, Y. Li, Y. Ma, K. K. Singh* | [![arXiv](https://img.shields.io/badge/arXiv-2507.05259-b31b1b.svg)](https://arxiv.org/abs/2507.05259) | - | [![Website](https://img.shields.io/badge/Website-9cf)](https://danielchyeh.github.io/X-Planner/) | arXiv, 2025 |
+| **[SmartEdit: Exploring Complex Instruction-based Image Editing with Multimodal Large Language Models](https://arxiv.org/abs/2312.06739)** <br> *Y. Huang et al.* | [![arXiv](https://img.shields.io/badge/arXiv-2312.06739-b31b1b.svg)](https://arxiv.org/abs/2312.06739) | - | - | CVPR, 2024 |
+| **[Instruction-based Image Editing with Planning, Reasoning, and Generation](https://openaccess.thecvf.com/content/ICCV2025/papers/Ji_Instruction-based_Image_Editing_with_Planning_Reasoning_and_Generation_ICCV_2025_paper.pdf)** <br> *L. Ji, C. Qi, Q. Chen* | [![Paper](https://img.shields.io/badge/Paper-ICCV-blue.svg)](https://openaccess.thecvf.com/content/ICCV2025/papers/Ji_Instruction-based_Image_Editing_with_Planning_Reasoning_and_Generation_ICCV_2025_paper.pdf) | - | - | ICCV, 2025 |
+| **[InferEdit: An instruction-based system with a multimodal LLM for complex multi-target image editing](https://doi.org/10.1016/j.visinf.2025.100265)** <br> *Z. Huang, Y. She, M. Xiang, T. Ding* | [![Paper](https://img.shields.io/badge/Paper-Visual_Informatics-blue.svg)](https://doi.org/10.1016/j.visinf.2025.100265) | - | - | Visual Informatics, 2025 |
+| **[MCIE: Multimodal LLM-Driven Complex Instruction Image Editing with Spatial Guidance](https://arxiv.org/abs/2602.07993)** <br> *X. Bai, X. Gu, A. Liu, H. Yuan, Y. Zhang, J. Ma* | [![arXiv](https://img.shields.io/badge/arXiv-2602.07993-b31b1b.svg)](https://arxiv.org/abs/2602.07993) | - | - | arXiv, 2026 |
+| **[InstructAny2Pix: Flexible Visual Editing via Multimodal Instruction Following](https://arxiv.org/abs/2312.06738)** <br> *S. Li, H. Singh, A. Grover* | [![arXiv](https://img.shields.io/badge/arXiv-2312.06738-b31b1b.svg)](https://arxiv.org/abs/2312.06738) | [![Star](https://img.shields.io/github/stars/jacklishufan/InstructAny2Pix.svg?style=social&label=Star)](https://github.com/jacklishufan/InstructAny2Pix) | - | arXiv, 2023 |
+
+[⬆ Back to Top](#-table-of-contents)
+
+---
+
+### Tool Planning and Multi-Turn Editing
+
+This category focuses on selecting tools, planning edit paths, and preserving context across turns. The agent must decide which operation to call, how much each tool costs, when to switch modalities, and how to use VLM feedback after a failed edit.
+
+| Title & Authors | Paper | Github | Website | Venue & Date |
+| :--- | :---: | :---: | :---: | :---: |
+| **[Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models](https://arxiv.org/abs/2303.04671)** <br> *C. Wu et al.* | [![arXiv](https://img.shields.io/badge/arXiv-2303.04671-b31b1b.svg)](https://arxiv.org/abs/2303.04671) | [![Star](https://img.shields.io/github/stars/microsoft/visual-chatgpt.svg?style=social&label=Star)](https://github.com/microsoft/visual-chatgpt) | - | arXiv, 2023 |
+| **[GenArtist: Multimodal LLM as an Agent for Unified Image Generation and Editing](https://arxiv.org/abs/2407.05600)** <br> *Z. Wang et al.* | [![arXiv](https://img.shields.io/badge/arXiv-2407.05600-b31b1b.svg)](https://arxiv.org/abs/2407.05600) | - | [![Website](https://img.shields.io/badge/Website-9cf)](https://zhenyuw16.github.io/GenArtist_page/) | arXiv, 2024 |
+| **[CoSTA*: Cost-Sensitive Toolpath Agent for Multi-turn Image Editing](https://arxiv.org/abs/2503.10613)** <br> *A. Gupta, N. Velaga, D. Nguyen, T. Zhou* | [![arXiv](https://img.shields.io/badge/arXiv-2503.10613-b31b1b.svg)](https://arxiv.org/abs/2503.10613) | - | - | arXiv, 2025 |
+| **[An LLM-LVLM Driven Agent for Iterative and Fine-Grained Image Editing](https://arxiv.org/abs/2508.17435)** <br> *Z. Liang, J. Sun, H. Ma* | [![arXiv](https://img.shields.io/badge/arXiv-2508.17435-b31b1b.svg)](https://arxiv.org/abs/2508.17435) | - | - | arXiv, 2025 |
+| **[Talk2Image: A Multi-Agent System for Multi-Turn Image Generation and Editing](https://ojs.aaai.org/index.php/AAAI/article/view/40519)** <br> *S. Ma et al.* | [![Paper](https://img.shields.io/badge/Paper-AAAI-blue.svg)](https://ojs.aaai.org/index.php/AAAI/article/view/40519) | - | - | AAAI, 2026 |
+
+[⬆ Back to Top](#-table-of-contents)
+
+---
+
+### Layer-Aware and Professional Editing
+
+This category targets professional or high-fidelity editing workflows. Instead of applying a single global edit, the agent plans local edits, manages layers or masks, preserves background fidelity, and optimizes aesthetics over long horizons.
+
+| Title & Authors | Paper | Github | Website | Venue & Date |
+| :--- | :---: | :---: | :---: | :---: |
+| **[Agent Banana: High-Fidelity Image Editing with Agentic Thinking and Tooling](https://arxiv.org/abs/2602.09084)** <br> *R. Ye et al.* | [![arXiv](https://img.shields.io/badge/arXiv-2602.09084-b31b1b.svg)](https://arxiv.org/abs/2602.09084) | - | [![Website](https://img.shields.io/badge/Website-9cf)](https://agent-banana.github.io/) | arXiv, 2026 |
+| **[PhotoAgent: Agentic Photo Editing with Exploratory Visual Aesthetic Planning](https://arxiv.org/abs/2602.22809)** <br> *M. Yao, Z. You, K.-M. Tam, M. Wang, T. Xue* | [![arXiv](https://img.shields.io/badge/arXiv-2602.22809-b31b1b.svg)](https://arxiv.org/abs/2602.22809) | - | [![Website](https://img.shields.io/badge/Website-9cf)](https://mdyao.github.io/PhotoAgent/) | arXiv, 2026 |
+| **[Agentic Retoucher for Text-To-Image Generation](https://arxiv.org/abs/2601.02046)** <br> *S. Shen et al.* | [![arXiv](https://img.shields.io/badge/arXiv-2601.02046-b31b1b.svg)](https://arxiv.org/abs/2601.02046) | [![Star](https://img.shields.io/github/stars/MediaX-SJTU/Agentic-Retoucher.svg?style=social&label=Star)](https://github.com/MediaX-SJTU/Agentic-Retoucher) | - | CVPR, 2026 |
+| **[MIND-Edit: MLLM Insight-Driven Editing via Language-Vision Projection](https://arxiv.org/abs/2505.19149)** <br> *S. Wang, W. Li, Q. Wang, S. Zhao, J. Zhang* | [![arXiv](https://img.shields.io/badge/arXiv-2505.19149-b31b1b.svg)](https://arxiv.org/abs/2505.19149) | - | - | arXiv, 2025 |
+| **[PromptArtisan: Multi-instruction Image Editing in Single Pass with Complete Attention Control](https://arxiv.org/abs/2502.10258)** <br> *K. Swami, R. Chittersu, P. Adlinge, R. Irny, S. Doodekula, A. Shukla* | [![arXiv](https://img.shields.io/badge/arXiv-2502.10258-b31b1b.svg)](https://arxiv.org/abs/2502.10258) | - | - | ICASSP, 2025 |
+
+[⬆ Back to Top](#-table-of-contents)
+
+---
+
+### Verification and Closed-Loop Refinement
+
+This category treats editing as a perception-reasoning-action-evaluation loop. The agent diagnoses artifacts or instruction-following failures, plans localized re-editing, and uses VLM/reward/human-feedback signals to decide whether another refinement pass is needed.
+
+| Title & Authors | Paper | Github | Website | Venue & Date |
+| :--- | :---: | :---: | :---: | :---: |
+| **[EditRefiner: A Human-Aligned Agentic Framework for Image Editing Refinement](https://arxiv.org/abs/2605.07457)** <br> *Z. Xu et al.* | [![arXiv](https://img.shields.io/badge/arXiv-2605.07457-b31b1b.svg)](https://arxiv.org/abs/2605.07457) | [![Star](https://img.shields.io/github/stars/IntMeGroup/EditRefiner.svg?style=social&label=Star)](https://github.com/IntMeGroup/EditRefiner) | - | arXiv, 2026 |
+| **[MIRA: Multimodal Iterative Reasoning Agent for Image Editing](https://openaccess.thecvf.com/content/CVPR2026F/papers/Zeng_MIRA_Multimodal_Iterative_Reasoning_Agent_for_Image_Editing_CVPRF_2026_paper.pdf)** <br> *Z. Zeng et al.* | [![Paper](https://img.shields.io/badge/Paper-CVPR_Workshop-blue.svg)](https://openaccess.thecvf.com/content/CVPR2026F/papers/Zeng_MIRA_Multimodal_Iterative_Reasoning_Agent_for_Image_Editing_CVPRF_2026_paper.pdf) | - | - | CVPR Workshop, 2026 |
+| **[A Multi-Agent Approach for Iterative Refinement in Visual Content Generation](https://multiagents.org/2025_artifacts/a_multi_agent_approach_for_iterative_refinement_in_visual_content_generation.pdf)** <br> *A. Nayak et al.* | [![Paper](https://img.shields.io/badge/Paper-WMAC-blue.svg)](https://multiagents.org/2025_artifacts/a_multi_agent_approach_for_iterative_refinement_in_visual_content_generation.pdf) | - | - | AAAI WMAC, 2025 |
+| **[ImageEdit-R1: Boosting Multi-Agent Image Editing via Reinforcement Learning](https://arxiv.org/abs/2603.08059)** <br> *Y. Zhao, Y. Ye, X. Liu, M. Q. Shieh, T. Bui* | [![arXiv](https://img.shields.io/badge/arXiv-2603.08059-b31b1b.svg)](https://arxiv.org/abs/2603.08059) | - | - | arXiv, 2026 |
+| **[CAMEO: A Conditional and Quality-Aware Multi-Agent Image Editing Orchestrator](https://arxiv.org/abs/2604.03156)** <br> *Y. Pu, H. Zheng, Z. Mo, Z. Pang, H. Zhang, T. Fan, S. Wu, J. Wei* | [![arXiv](https://img.shields.io/badge/arXiv-2604.03156-b31b1b.svg)](https://arxiv.org/abs/2604.03156) | - | - | arXiv, 2026 |
+| **[EditThinker: Unlocking Iterative Reasoning for Any Image Editor](https://arxiv.org/abs/2512.05965)** <br> *H. Li et al.* | [![arXiv](https://img.shields.io/badge/arXiv-2512.05965-b31b1b.svg)](https://arxiv.org/abs/2512.05965) | [![Star](https://img.shields.io/github/stars/appletea233/EditThinker.svg?style=social&label=Star)](https://github.com/appletea233/EditThinker) | [![Website](https://img.shields.io/badge/Website-9cf)](https://appletea233.github.io/think-while-edit/) | arXiv, 2025 |
+| **[Multi-Agent Image Restoration](https://arxiv.org/abs/2503.09403)** <br> *X. Jiang, G. Li, B. Chen, J. Zhang* | [![arXiv](https://img.shields.io/badge/arXiv-2503.09403-b31b1b.svg)](https://arxiv.org/abs/2503.09403) | - | - | arXiv, 2025 |
+
+[⬆ Back to Top](#-table-of-contents)
+
+---
+
+### Unified Generation-Editing Agents
+
+This category covers broader image agents that support both generation and editing. They are not always editing-only papers, but they introduce planning, search, memory, critic agents, or interleaved trajectories that are directly useful for agentic image editing systems.
+
+| Title & Authors | Paper | Github | Website | Venue & Date |
+| :--- | :---: | :---: | :---: | :---: |
+| **[RS-Gen: A Multi-Stage Agentic Framework for Reasoning and Search-Augmented Image Generation](https://arxiv.org/abs/2606.23221)** <br> *F. Bian, Z. Zheng, W. Deng, D. Zhou, J. Luan* | [![arXiv](https://img.shields.io/badge/arXiv-2606.23221-b31b1b.svg)](https://arxiv.org/abs/2606.23221) | - | - | arXiv, 2026 |
+| **[InterleaveThinker: Reinforcing Agentic Interleaved Generation](https://arxiv.org/abs/2606.13679)** <br> *D. Zheng, H. Lee, M. Zhang, K. Feng, Z. Guo, R. Zhang, H. Li* | [![arXiv](https://img.shields.io/badge/arXiv-2606.13679-b31b1b.svg)](https://arxiv.org/abs/2606.13679) | [![Star](https://img.shields.io/github/stars/zhengdian1/InterleaveThinker.svg?style=social&label=Star)](https://github.com/zhengdian1/InterleaveThinker) | [![Website](https://img.shields.io/badge/Website-9cf)](https://zhengdian1.github.io/InterleaveThinker/) | arXiv, 2026 |
+
+[⬆ Back to Top](#-table-of-contents)
