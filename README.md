@@ -31,8 +31,6 @@ We classify a system by the highest controller capability demonstrated by the co
 
 Official resources are listed in separate `GitHub` and `Website` columns. A dash means that no author-maintained resource could be verified at the time of the latest update. Official datasets are linked from the `Website` column.
 
-**Latest update (August 2026):** added ToolArtist, VideoCoCo, ReCA, Audio-Visual Flamingo, and the IA-Bench and MSVE-Bench evaluation resources; also re-verified Qwen-Image-Agent.
-
 ## Controller-capability taxonomy
 
 | Level | Controller capability | Main question | Typical controlled variables |
