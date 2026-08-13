@@ -345,12 +345,6 @@ L0 is an inclusion boundary, not an agent category. The following systems are im
 
 [Back to top](#awesome-agentic-visual-generation)
 
-## Contact
-
-If you have any suggestions or find this repo helpful, feel free to contact us.
-
-Email:[yinminghuang1828@gmail.com](mailto:yinminghuang1828@gmail.com), [francisshuyuan@gmail.com](mailto:francisshuyuan@gmail.com).
-
 ## Community
 
 Welcome to join our community to discuss agentic visual generation:
@@ -363,3 +357,9 @@ Welcome to join our community to discuss agentic visual generation:
     <img src="assets/8760479f6cf035d3467599a54bbe2c53.jpg" alt="WeChat community QR code" width="360">
   </a>
 </p>
+
+## Contact
+
+If you have any suggestions or find this repo helpful, feel free to contact us.
+
+Email:[yinminghuang1828@gmail.com](mailto:yinminghuang1828@gmail.com), [francisshuyuan@gmail.com](mailto:francisshuyuan@gmail.com).
