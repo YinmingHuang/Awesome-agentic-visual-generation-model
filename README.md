@@ -27,7 +27,7 @@ We classify a system by the highest controller capability demonstrated by the co
 - The action type does not determine the level. A prompt rewrite before generation is L1, while a prompt rewrite caused by inspection of a generated image is L3.
 - Tool use describes the action space. Multi-agent design describes the topology. Reinforcement learning describes a training method. None of them alone determines the level.
 - A paper appears once in L1-L4 according to its maximum demonstrated level. The `Path` column records the lower-level capabilities that it also contains.
-- Fixed generators, fixed pipelines, stand-alone evaluators, reward models, and benchmarks are not generation controllers. They are listed separately.
+- Only fixed generators, stand-alone evaluators, reward models, and benchmarks are not generation controllers. They are listed separately.
 
 Official resources are listed in separate `GitHub` and `Website` columns. A dash means that no author-maintained resource could be verified at the time of the latest update. Official datasets are linked from the `Website` column.
 
