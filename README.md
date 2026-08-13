@@ -338,7 +338,8 @@ L0 is an inclusion boundary, not an agent category. The following systems are im
 
 ## Contact
 
-If you have any suggestions or find this repo helpful, feel free to contact us: 
+If you have any suggestions or find this repo helpful, feel free to contact us.
+
 Email:[yinminghuang1828@gmail.com](mailto:yinminghuang1828@gmail.com), [francisshuyuan@gmail.com](mailto:francisshuyuan@gmail.com).
 
 If you find our work useful, <b>please consider giving a star ⭐ to this GitHub repository ❤️.</b>
