@@ -362,4 +362,4 @@ Welcome to join our community to discuss agentic visual generation:
 
 If you have any suggestions or find this repo helpful, feel free to contact us.
 
-Email:[yinminghuang1828@gmail.com](mailto:yinminghuang1828@gmail.com), [francisshuyuan@gmail.com](mailto:francisshuyuan@gmail.com).
+Email: [yinminghuang1828@gmail.com](mailto:yinminghuang1828@gmail.com), [francisshuyuan@gmail.com](mailto:francisshuyuan@gmail.com).
