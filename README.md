@@ -3,7 +3,6 @@
 > Paper coming soon.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 A curated and taxonomy-driven collection of papers on agents that plan, execute, evaluate, revise, and improve visual generation. The repository covers image generation and editing, video generation and editing, 3D scene construction, and interactive visual worlds.
 
@@ -31,6 +30,8 @@ We classify a system by the highest controller capability demonstrated by the co
 - Fixed generators, fixed pipelines, stand-alone evaluators, reward models, and benchmarks are not generation controllers. They are listed separately.
 
 Official resources are listed in separate `GitHub` and `Website` columns. A dash means that no author-maintained resource could be verified at the time of the latest update. Official datasets are linked from the `Website` column.
+
+**Latest update (August 2026):** added ToolArtist, VideoCoCo, ReCA, Audio-Visual Flamingo, and the IA-Bench and MSVE-Bench evaluation resources; also re-verified Qwen-Image-Agent.
 
 ## Controller-capability taxonomy
 
@@ -178,6 +179,7 @@ L3 controllers observe a generated artifact, rendered state, tool result, verifi
 | [GenAgent](https://arxiv.org/abs/2601.18543) | - | - | L1+L2+L3 | Image | Trained tool use and reflection | 2026 |
 | [Unify-Agent](https://arxiv.org/abs/2603.29620) | [GitHub](https://github.com/shawn0728/Unify-Agent) | - | L1+L2+L3 | Image, World | Search-generation workflow | 2026 |
 | [Qwen-Image-Agent](https://arxiv.org/abs/2606.26907) | - | - | L1+L2+L3 | Image, World | Search, memory, editing, and feedback | 2026 |
+| [ToolArtist: Tool-Using Unified Multimodal Models for Agentic Image Generation](https://arxiv.org/abs/2608.04436) | [GitHub](https://github.com/bubble65/EMU-Agentic-PostTrain) | [Dataset](https://huggingface.co/datasets/bubble65/EMU-Agentic-PostTrain-Data) | L1+L2+L3 | Image, World | Unified search, native drawing, inspection, and revision | 2026 |
 | [UniReason 1.0](https://arxiv.org/abs/2602.02437) | [GitHub](https://github.com/AlenjandroWang/UniReason) | - | L1+L3 | Image, Editing, World | Knowledge reasoning and correction | 2026 |
 
 ### Unified and latent closed-loop generation
@@ -231,6 +233,8 @@ L3 controllers observe a generated artifact, rendered state, tool result, verifi
 | [AniME](https://arxiv.org/abs/2508.18781) | - | - | L1+L2+L3 | Video | Adaptive animation planning | 2025 |
 | [CoAgent](https://arxiv.org/abs/2512.22536) | - | - | L1+L2+L3 | Video | Cross-segment consistency agent | 2025 |
 | [ViMax](https://arxiv.org/abs/2606.07649) | [GitHub](https://github.com/HKUDS/ViMax) | - | L1+L2+L3 | Video | Agentic video workflow | 2026 |
+| [ReCA: Multi-Shot Long Video Extrapolation via Recursive Context Allocation](https://arxiv.org/abs/2605.26525) | [GitHub (announced)](https://github.com/ali-vilab/ReCA) | [Website](https://reca.vmv.re/) | L1+L2+L3 | Video | Recursive context allocation and state refresh | 2026 |
+| [VideoCoCo: Code-as-CoT for Physically-Consistent Video Generation via an Agentic Dual-Engine System](https://arxiv.org/abs/2607.27380) | [GitHub](https://github.com/micky-li-hd/VideoCoCo) | - | L1+L2+L3 | Video, 3D | Executable simulation, draft inspection, and conditioned editing | 2026 |
 | [ShareVerse](https://arxiv.org/abs/2603.02697) | - | - | L1+L2+L3 | Video, World | Shared multi-agent world state | 2026 |
 | [SPIRAL](https://arxiv.org/abs/2603.08403) | - | [Website](https://yuyang-cloud.github.io/spiral/) | L1+L2+L3 | Video, World | Think-act-reflect state transitions | 2026 |
 
@@ -263,6 +267,8 @@ These resources evaluate outputs, trajectories, controllers, or supporting signa
 | [A Unified Agentic Framework for Evaluating Conditional Image Generation](https://arxiv.org/abs/2504.07046) | [GitHub](https://github.com/HITsz-TMG/Agentic-CIGEval) | - | Image generation | Evaluator orchestration | 2025 |
 | [Draw ALL Your Imagine](https://arxiv.org/abs/2505.24787) | [GitHub](https://github.com/yczhou001/LongBench-T2I) | - | Complex image instructions | Benchmark and iterative agent framework | 2025 |
 | [AtelierEval](https://arxiv.org/abs/2605.22645) | - | - | Human and LLM prompters | Prompter evaluation | 2026 |
+| [IA-Bench](https://arxiv.org/abs/2606.26907) | - | - | Planning, reasoning, search, and memory in image generation | Agent benchmark | 2026 |
+| [MSVE-Bench and NB-Q](https://arxiv.org/abs/2605.26525) | [GitHub (announced)](https://github.com/ali-vilab/ReCA) | [Website](https://reca.vmv.re/) | 3–5 minute multi-shot video extrapolation | Benchmark and source-grounded protocol | 2026 |
 | [UniVA-Bench](https://arxiv.org/abs/2511.08521) | [GitHub](https://github.com/univa-agent/univa) | [Website](https://univa.online/) | Multi-step video workflows | Agent benchmark | 2025 |
 | [ActVideoGen-Bench](https://arxiv.org/abs/2603.08403) | - | [Website](https://yuyang-cloud.github.io/spiral/) | Long-horizon action-conditioned video | Agent benchmark | 2026 |
 | [CineBench](https://arxiv.org/abs/2604.10456) | - | - | Cinematic compilation | Agent benchmark | 2026 |
@@ -325,5 +331,6 @@ L0 is an inclusion boundary, not an agent category. The following systems are im
 | [Re-Imagen](https://arxiv.org/abs/2209.14491) | - | - | Image | Fixed retrieval and generation pipeline |
 | [DPOK](https://arxiv.org/abs/2305.16381) | [GitHub](https://github.com/google-research/google-research/tree/master/dpok) | - | Image | Optimizes a generator rather than a generation-level controller |
 | [Reward-Instruct](https://arxiv.org/abs/2503.13070) | [GitHub](https://github.com/Luo-Yihong/R0) | - | Image | Optimizes a generator rather than a generation-level controller |
+| [Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos](https://arxiv.org/abs/2607.16107) | [GitHub](https://github.com/NVIDIA/audio-flamingo) | [Website](https://avflamingo.pages.dev/) | Video | Audio-visual understanding and reasoning model; does not generate or edit visual artifacts |
 
 [Back to top](#awesome-agentic-visual-generation)
