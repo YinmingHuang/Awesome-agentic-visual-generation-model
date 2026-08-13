@@ -12,7 +12,7 @@
 
 **Pull requests are very welcome! Please help us add new papers, official resources, or corrections.**
 
-A curated and taxonomy-driven collection of papers on agents that plan, execute, evaluate, revise, and improve visual generation. The repository covers image generation and editing, video generation and editing, 3D scene construction, and interactive visual worlds.
+A curated and taxonomy-driven collection of papers on agents that plan, execute, evaluate, revise, and improve visual generation. The repository covers image generation and editing, video generation and editing, 3D scene construction, and world models.
 
 The primary organization follows the maximum control authority of the system. Modality and mechanism are secondary tags. This prevents tool use, multi-agent design, memory, or reinforcement learning from being treated as agenticity levels by themselves.
 
