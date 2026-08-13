@@ -4,6 +4,12 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+**If you find our work useful, please consider giving a star ⭐ to this GitHub repository ❤️.**
+
+<p align="center">
+  <img src="assets/x-launch-taxonomy.png" alt="Controller-capability taxonomy for agentic visual generation" width="850">
+</p>
+
 **Pull requests are very welcome! Please help us add new papers, official resources, or corrections.**
 
 A curated and taxonomy-driven collection of papers on agents that plan, execute, evaluate, revise, and improve visual generation. The repository covers image generation and editing, video generation and editing, 3D scene construction, and interactive visual worlds.
@@ -20,6 +26,7 @@ The primary organization follows the maximum control authority of the system. Mo
 - [L4: Experience-Adaptive Control](#l4-experience-adaptive-control)
 - [Evaluation, Benchmarks, and Reward Models](#evaluation-benchmarks-and-reward-models)
 - [Contact](#contact)
+- [Community](#community)
 
 ## Scope and inclusion rule
 
@@ -342,4 +349,10 @@ If you have any suggestions or find this repo helpful, feel free to contact us.
 
 Email:[yinminghuang1828@gmail.com](mailto:yinminghuang1828@gmail.com), [francisshuyuan@gmail.com](mailto:francisshuyuan@gmail.com).
 
-If you find our work useful, <b>please consider giving a star ⭐ to this GitHub repository ❤️.</b>
+## Community
+
+Welcome to join our WeChat community to discuss.
+
+<p align="center">
+  <img src="assets/cc45dfe72d727c55d800ba6fd6650727.jpg" alt="WeChat community QR code" width="360">
+</p>
