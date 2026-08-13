@@ -1,0 +1,11 @@
+# Local migration exports and authentication artifacts
+migration/
+
+# Temporary working files
+tmp/
+
+# Local Codex skills used to maintain the collection
+skills/
+
+# Operating-system metadata
+.DS_Store
