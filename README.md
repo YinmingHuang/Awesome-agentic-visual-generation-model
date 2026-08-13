@@ -6,7 +6,7 @@
 [![WeChat Community](https://img.shields.io/badge/WeChat-Join_Community-07C160?logo=wechat&logoColor=white)](assets/8760479f6cf035d3467599a54bbe2c53.jpg)
 [![Discord Community](https://img.shields.io/badge/Discord-Join_Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/C53CkwJDF)
 
-**If you find our work useful, please consider giving a star ⭐ to this GitHub repository ❤️.**
+**❤️ If you find our work useful, please consider giving a star ⭐ to this GitHub repository ❤️.**
 
 <p align="center">
   <img src="assets/x-launch-taxonomy.png" alt="Controller-capability taxonomy for agentic visual generation" width="850">
