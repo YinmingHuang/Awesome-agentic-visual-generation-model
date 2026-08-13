@@ -19,6 +19,7 @@ The primary organization follows the maximum control authority of the system. Mo
 - [L3: Outcome-Adaptive Control](#l3-outcome-adaptive-control)
 - [L4: Experience-Adaptive Control](#l4-experience-adaptive-control)
 - [Evaluation, Benchmarks, and Reward Models](#evaluation-benchmarks-and-reward-models)
+- [Contact](#contact)
 
 ## Scope and inclusion rule
 
@@ -334,3 +335,9 @@ L0 is an inclusion boundary, not an agent category. The following systems are im
 | [Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos](https://arxiv.org/abs/2607.16107) | [GitHub](https://github.com/NVIDIA/audio-flamingo) [![Stars](https://img.shields.io/github/stars/NVIDIA/audio-flamingo?style=flat&label=stars)](https://github.com/NVIDIA/audio-flamingo/stargazers) | [Website](https://avflamingo.pages.dev/) | Video | Audio-visual understanding and reasoning model; does not generate or edit visual artifacts | 2026-07 |
 
 [Back to top](#awesome-agentic-visual-generation)
+
+## Contact
+
+If you have any suggestions or find this repo helpful, feel free to contact us: [yinminghuang1828@gmail.com](mailto:yinminghuang1828@gmail.com), [francisshuyuan@gmail.com](mailto:francisshuyuan@gmail.com).
+
+If you find our work useful, please consider giving a star ⭐ to this GitHub repository.
