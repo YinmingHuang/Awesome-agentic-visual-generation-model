@@ -14,7 +14,7 @@
 
 **Pull requests are very welcome! Please help us add new papers, official resources, or corrections.**
 
-A curated and taxonomy-driven collection of papers on agents that plan, execute, evaluate, revise, and improve visual generation. The repository covers image generation and editing, video generation and editing, 3D scene construction, and world models.
+A curated and taxonomy-driven collection of papers on agents that plan, execute, evaluate, revise, and improve visual generation. The repository covers image generation and editing, video generation and editing, slide and user-interface generation, 3D scene construction, and world models.
 
 The primary organization follows the maximum control authority of the system. Modality and mechanism are secondary tags. This prevents tool use, multi-agent design, memory, or reinforcement learning from being treated as agenticity levels by themselves.
 
@@ -32,7 +32,7 @@ The primary organization follows the maximum control authority of the system. Mo
 
 ## Scope and inclusion rule
 
-An agentic visual generation system contains a visual generator or editor and a controller that makes generation-level decisions. The controller may be external, hybrid, or internalized in a unified model.
+An agentic visual generation system contains a visual generator or editor and a controller that makes generation-level decisions. In most current systems, an LLM, VLM, or MLLM is the controller and the visual generator is one of its tools. The controller may also be hybrid or internalized in a unified model, but generation capability alone does not establish agenticity.
 
 We classify a system by the highest controller capability demonstrated by the complete method:
 
@@ -59,7 +59,7 @@ conditions  ->  execution  ->  current trajectory  ->  future trajectories
     L1              L2                 L3                      L4
 ```
 
-Modality tags used below are `Image`, `Editing`, `Video`, `3D`, and `World`.
+Modality tags used below are `Image`, `Editing`, `Video`, `Slide`, `UI`, `3D`, and `World`.
 
 ## L1: Conditioning Control
 
@@ -150,6 +150,18 @@ L2 controllers select and invoke generation-related capabilities. They can choos
 | [Kubrick](https://arxiv.org/abs/2408.10453) | - | [Website](https://kubrick9.github.io/) | L1+L2 | Video, 3D | Executable scene workflow | 2024-08 |
 | [Anim-Director](https://arxiv.org/abs/2408.09787) | [GitHub](https://github.com/HITsz-TMG/Anim-Director) [![Stars](https://img.shields.io/github/stars/HITsz-TMG/Anim-Director?style=flat&label=stars)](https://github.com/HITsz-TMG/Anim-Director/stargazers) | - | L1+L2 | Video | Controllable animation workflow | 2024-08 |
 | [Mora](https://arxiv.org/abs/2403.13248) | [GitHub](https://github.com/lichao-sun/Mora) [![Stars](https://img.shields.io/github/stars/lichao-sun/Mora?style=flat&label=stars)](https://github.com/lichao-sun/Mora/stargazers) | - | L1+L2 | Video | Multi-agent video modules | 2024-03 |
+
+### Structured visual artifacts: slides and user interfaces
+
+| Paper | GitHub | Website | Path | Modality | Primary mechanism | Date |
+| --- | :---: | :---: | :---: | :---: | --- | :---: |
+| [Presentation Slide Translation and Layout Error Correction by LLMs](https://aclanthology.org/2026.acl-srw.26/) | - | - | L1+L2 | Slide, Editing | Image-and-XML-guided translation and layout repair | 2026-07 |
+| [Automatic Slide Updating with User-Defined Dynamic Templates and Natural Language Instructions (SlideAgent)](https://arxiv.org/abs/2604.17894) | [GitHub](https://github.com/XiaoZhou2024/SlideAgent) [![Stars](https://img.shields.io/github/stars/XiaoZhou2024/SlideAgent?style=flat&label=stars)](https://github.com/XiaoZhou2024/SlideAgent/stargazers) | - | L1+L2 | Slide, Editing | Structure parsing, retrieval, and object-level tool execution | 2026-04 |
+| [SlideTailor: Personalized Presentation Slide Generation for Scientific Papers](https://arxiv.org/abs/2512.20292) | [GitHub](https://github.com/nusnlp/SlideTailor) [![Stars](https://img.shields.io/github/stars/nusnlp/SlideTailor?style=flat&label=stars)](https://github.com/nusnlp/SlideTailor/stargazers) | - | L1+L2 | Slide | Preference distillation, layout-aware planning, and code execution | 2025-12 |
+| [WebVIA: A Web-based Vision-Language Agentic Framework for Interactive and Verifiable UI-to-Code Generation](https://arxiv.org/abs/2511.06251) | [GitHub](https://github.com/zheny2751-dotcom/WebVIA) [![Stars](https://img.shields.io/github/stars/zheny2751-dotcom/WebVIA?style=flat&label=stars)](https://github.com/zheny2751-dotcom/WebVIA/stargazers) | [Website](https://zheny2751-dotcom.github.io/webvia.github.io/) | L1+L2 | UI | Multi-state exploration, code generation, and terminal validation | 2025-11 |
+| [ScreenCoder: Advancing Visual-to-Code Generation for Front-End Automation via Modular Multimodal Agents](https://arxiv.org/abs/2507.22827) | [GitHub](https://github.com/leigest519/ScreenCoder) [![Stars](https://img.shields.io/github/stars/leigest519/ScreenCoder?style=flat&label=stars)](https://github.com/leigest519/ScreenCoder/stargazers) | - | L1+L2 | UI | Grounding, hierarchical planning, and code-generation agents | 2025-07 |
+| [Talk to Your Slides: High-Efficiency Slide Editing via Language-Driven Structured Data Manipulation](https://arxiv.org/abs/2505.11604) | [GitHub](https://github.com/KyuDan1/Talk-to-Your-Slides) [![Stars](https://img.shields.io/github/stars/KyuDan1/Talk-to-Your-Slides?style=flat&label=stars)](https://github.com/KyuDan1/Talk-to-Your-Slides/stargazers) | - | L1+L2 | Slide, Editing | Semantic planning and PowerPoint object-model execution | 2025-05 |
+| [PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides](https://arxiv.org/abs/2501.03936) | [GitHub](https://github.com/icip-cas/PPTAgent) [![Stars](https://img.shields.io/github/stars/icip-cas/PPTAgent?style=flat&label=stars)](https://github.com/icip-cas/PPTAgent/stargazers) | - | L1+L2 | Slide | Reference analysis and edit-action generation | 2025-01 |
 
 [Back to top](#awesome-agentic-visual-generation)
 
@@ -250,6 +262,18 @@ L3 controllers observe a generated artifact, rendered state, tool result, verifi
 | [VideoAgent](https://arxiv.org/abs/2410.10076) | [GitHub](https://github.com/video-as-agent/videoagent) [![Stars](https://img.shields.io/github/stars/video-as-agent/videoagent?style=flat&label=stars)](https://github.com/video-as-agent/videoagent/stargazers) | [Website](https://video-as-agent.github.io/) | L1+L3 | Video | Environment-feedback planning | 2024-10 |
 | [SceneCraft](https://arxiv.org/abs/2403.01248) | - | - | L1+L2+L3 | 3D | Blender execution and revision | 2024-03 |
 
+### Rendered-feedback control for slides and user interfaces
+
+| Paper | GitHub | Website | Path | Modality | Primary mechanism | Date |
+| --- | :---: | :---: | :---: | :---: | --- | :---: |
+| [Vision-Guided Iterative Refinement for Frontend Code Generation](https://arxiv.org/abs/2604.05839) | - | - | L1+L2+L3 | UI | VLM critic, rendered feedback, and iterative code revision | 2026-04 |
+| [VisRefiner: Learning from Visual Differences for Screenshot-to-Code Generation](https://arxiv.org/abs/2602.05998) | - | - | L1+L3 | UI | Difference-aligned training and render-conditioned self-refinement | 2026-02 |
+| [FronTalk: Benchmarking Front-End Development as Conversational Code Generation with Multi-Modal Feedback (AceCoder)](https://arxiv.org/abs/2601.04203) | [GitHub](https://github.com/shirley-wu/frontalk) [![Stars](https://img.shields.io/github/stars/shirley-wu/frontalk?style=flat&label=stars)](https://github.com/shirley-wu/frontalk/stargazers) | [Website](https://frontalk-benchmark.github.io/) | L1+L2+L3 | UI | Web-agent critique and regression-aware regeneration | 2025-12 |
+| [PPTArena: A Benchmark for Agentic PowerPoint Editing (PPTPilot)](https://arxiv.org/abs/2512.03042) | [GitHub](https://github.com/michaelofengenden/PPTArena) [![Stars](https://img.shields.io/github/stars/michaelofengenden/PPTArena?style=flat&label=stars)](https://github.com/michaelofengenden/PPTArena/stargazers) | [Website](https://ppt-arena.onrender.com/evaluation) | L1+L2+L3 | Slide, Editing | Plan-edit-check loop with programmatic and XML tools | 2025-12 |
+| [UI2Code^N: UI-to-Code Generation as Interactive Visual Optimization](https://arxiv.org/abs/2511.08195) | [GitHub](https://github.com/zai-org/UI2Code_N) [![Stars](https://img.shields.io/github/stars/zai-org/UI2Code_N?style=flat&label=stars)](https://github.com/zai-org/UI2Code_N/stargazers) | [Website](https://zheny2751-dotcom.github.io/ui2code-n.github.io/) | L1+L3 | UI | Unified render-inspect-refine model with test-time scaling | 2025-11 |
+| [Auto-Slides: An Interactive Multi-Agent System for Creating and Customizing Research Presentations](https://arxiv.org/abs/2509.11062) | [GitHub](https://github.com/Westlake-AGI-Lab/Auto-Slides) [![Stars](https://img.shields.io/github/stars/Westlake-AGI-Lab/Auto-Slides?style=flat&label=stars)](https://github.com/Westlake-AGI-Lab/Auto-Slides/stargazers) | [Website](https://auto-slides.github.io/) | L1+L2+L3 | Slide | Multi-agent planning, verification, repair, and interactive refinement | 2025-09 |
+| [DesignCoder: Hierarchy-Aware and Self-Correcting UI Code Generation with Large Language Models](https://arxiv.org/abs/2506.13663) | - | - | L1+L2+L3 | UI | Hierarchy-aware generation and vision-guided self-correction | 2025-06 |
+
 [Back to top](#awesome-agentic-visual-generation)
 
 ## L4: Experience-Adaptive Control
@@ -298,6 +322,20 @@ These resources evaluate outputs, trajectories, controllers, or supporting signa
 | [EvalCrafter](https://arxiv.org/abs/2310.11440) | [GitHub](https://github.com/EvalCrafter/EvalCrafter) [![Stars](https://img.shields.io/github/stars/EvalCrafter/EvalCrafter?style=flat&label=stars)](https://github.com/EvalCrafter/EvalCrafter/stargazers) | [Website](https://evalcrafter.github.io/) | Video | Human-aligned video evaluation | 2023-10 |
 | [T2I-CompBench](https://arxiv.org/abs/2307.06350) | - | [Website](https://karine-h.github.io/T2I-CompBench-new/) | Image | Compositional text-image alignment | 2023-07 |
 
+### Slide and user-interface benchmarks
+
+| Resource | GitHub | Website | Modality | Focus | Date |
+| --- | :---: | :---: | :---: | --- | :---: |
+| [PPT-Eval: A Benchmark for Computer-Use Agents on PowerPoint Tasks](https://arxiv.org/abs/2606.31154) | - | [Website](https://microsoft.github.io/ppteval/) | Slide | Partial-credit task completion, aesthetic penalties, and feedback | 2026-06 |
+| [Automatic Slide Updating with User-Defined Dynamic Templates and Natural Language Instructions (DynaSlide)](https://arxiv.org/abs/2604.17894) | [GitHub](https://github.com/XiaoZhou2024/SlideAgent) [![Stars](https://img.shields.io/github/stars/XiaoZhou2024/SlideAgent?style=flat&label=stars)](https://github.com/XiaoZhou2024/SlideAgent/stargazers) | - | Slide | Dynamic slide-update benchmark | 2026-04 |
+| [Vision2Web: A Hierarchical Benchmark for Visual Website Development with Agent Verification](https://arxiv.org/abs/2603.26648) | [GitHub](https://github.com/zai-org/Vision2Web) [![Stars](https://img.shields.io/github/stars/zai-org/Vision2Web?style=flat&label=stars)](https://github.com/zai-org/Vision2Web/stargazers) | [Website](https://vision2web-bench.github.io/) | UI | Static, interactive, and full-stack visual website development | 2026-03 |
+| [PresentBench: A Fine-Grained Rubric-Based Benchmark for Slide Generation](https://arxiv.org/abs/2603.07244) | [GitHub](https://github.com/PresentBench/PresentBench) [![Stars](https://img.shields.io/github/stars/PresentBench/PresentBench?style=flat&label=stars)](https://github.com/PresentBench/PresentBench/stargazers) | [Website](https://presentbench.github.io/) | Slide | Instance-specific checklist evaluation | 2026-03 |
+| [FronTalk: Benchmarking Front-End Development as Conversational Code Generation with Multi-Modal Feedback](https://arxiv.org/abs/2601.04203) | [GitHub](https://github.com/shirley-wu/frontalk) [![Stars](https://img.shields.io/github/stars/shirley-wu/frontalk?style=flat&label=stars)](https://github.com/shirley-wu/frontalk/stargazers) | [Website](https://frontalk-benchmark.github.io/) | UI | Multi-turn text and visual feedback | 2025-12 |
+| [PPTArena: A Benchmark for Agentic PowerPoint Editing](https://arxiv.org/abs/2512.03042) | [GitHub](https://github.com/michaelofengenden/PPTArena) [![Stars](https://img.shields.io/github/stars/michaelofengenden/PPTArena?style=flat&label=stars)](https://github.com/michaelofengenden/PPTArena/stargazers) | [Website](https://ppt-arena.onrender.com/evaluation) | Slide | In-place editing across real PowerPoint decks | 2025-12 |
+| [PPTBench: Towards Holistic Evaluation of Large Language Models for PowerPoint Layout and Design Understanding](https://arxiv.org/abs/2512.02624) | - | - | Slide | Detection, understanding, modification, and generation | 2025-12 |
+| [Talk to Your Slides: High-Efficiency Slide Editing via Language-Driven Structured Data Manipulation (TSBench)](https://arxiv.org/abs/2505.11604) | [GitHub](https://github.com/KyuDan1/Talk-to-Your-Slides) [![Stars](https://img.shields.io/github/stars/KyuDan1/Talk-to-Your-Slides?style=flat&label=stars)](https://github.com/KyuDan1/Talk-to-Your-Slides/stargazers) | - | Slide | Human-authored slide-editing instructions | 2025-05 |
+| [Design2Code: Benchmarking Multimodal Code Generation for Automated Front-End Engineering](https://arxiv.org/abs/2403.03163) | [GitHub](https://github.com/NoviScl/Design2Code) [![Stars](https://img.shields.io/github/stars/NoviScl/Design2Code?style=flat&label=stars)](https://github.com/NoviScl/Design2Code/stargazers) | [Website](https://salt-nlp.github.io/Design2Code/) | UI | Screenshot-to-code visual fidelity | 2024-03 |
+
 ### Reward models, verifiers, and preference data
 
 | Resource | GitHub | Website | Scope | Role | Date |
@@ -317,7 +355,9 @@ L0 is an inclusion boundary, not an agent category. The following systems are im
 
 | Supporting component | GitHub | Website | Modality | Why it is outside L1-L4 | Date |
 | --- | :---: | :---: | :---: | --- | :---: |
+| [FrontCoder: Scaling Visual Fidelity in Front-End Code Generation](https://aclanthology.org/2026.findings-acl.220/) | [GitHub](https://github.com/leanfeng1/FrontCoder) [![Stars](https://img.shields.io/github/stars/leanfeng1/FrontCoder?style=flat&label=stars)](https://github.com/leanfeng1/FrontCoder/stargazers) | - | UI | Trains a one-shot frontend code generator without inference-time control | 2026-07 |
 | [Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos](https://arxiv.org/abs/2607.16107) | [GitHub](https://github.com/NVIDIA/audio-flamingo) [![Stars](https://img.shields.io/github/stars/NVIDIA/audio-flamingo?style=flat&label=stars)](https://github.com/NVIDIA/audio-flamingo/stargazers) | [Website](https://avflamingo.pages.dev/) | Video | Audio-visual understanding and reasoning model; does not generate or edit visual artifacts | 2026-07 |
+| [AeSlides: Incentivizing Aesthetic Layout in LLM-Based Slide Generation via Verifiable Rewards](https://arxiv.org/abs/2604.22840) | [GitHub](https://github.com/ympan0508/aeslides) [![Stars](https://img.shields.io/github/stars/ympan0508/aeslides?style=flat&label=stars)](https://github.com/ympan0508/aeslides/stargazers) | [Website](https://ympan0508.github.io/aeslides/) | Slide | Trains a slide generator with layout rewards but no inference-time control trajectory | 2026-04 |
 | [AVI-Edit](https://arxiv.org/abs/2512.10571) | - | [Website](https://hjzheng.net/projects/AVI-Edit/) | Editing | Fixed editing pipeline | 2025-12 |
 | [Reward-Instruct](https://arxiv.org/abs/2503.13070) | [GitHub](https://github.com/Luo-Yihong/R0) [![Stars](https://img.shields.io/github/stars/Luo-Yihong/R0?style=flat&label=stars)](https://github.com/Luo-Yihong/R0/stargazers) | - | Image | Optimizes a generator rather than a generation-level controller | 2025-03 |
 | [Lumiere](https://arxiv.org/abs/2401.12945) | - | [Website](https://lumiere-video.github.io/) | Video | Fixed conditional generator | 2024-01 |
