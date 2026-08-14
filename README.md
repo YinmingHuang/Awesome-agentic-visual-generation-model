@@ -118,6 +118,7 @@ L2 controllers select and invoke generation-related capabilities. They can choos
 
 | Paper | GitHub | Website | Path | Modality | Primary mechanism | Date |
 | --- | :---: | :---: | :---: | :---: | --- | :---: |
+| [Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation (SearchGen)](https://arxiv.org/abs/2607.05382) | [GitHub](https://github.com/HaozheH3/SearchGen) [![Stars](https://img.shields.io/github/stars/HaozheH3/SearchGen?style=flat&label=stars)](https://github.com/HaozheH3/SearchGen/stargazers) | [Website](https://haozheh3.github.io/SearchGen/) | L1+L2 | Image, World | Selective image/web search, evidence filtering, and prompt integration | 2026-07 |
 | [GenClaw: Code-Driven Agentic Image Generation](https://arxiv.org/abs/2605.30248) | [GitHub](https://github.com/yejy53/GenClaw) [![Stars](https://img.shields.io/github/stars/yejy53/GenClaw?style=flat&label=stars)](https://github.com/yejy53/GenClaw/stargazers) | - | L1+L2 | Image | Code-driven canvas operations | 2026-05 |
 | [GlyphBanana](https://arxiv.org/abs/2603.12155) | [GitHub](https://github.com/yuriYanZeXuan/GlyphBanana) [![Stars](https://img.shields.io/github/stars/yuriYanZeXuan/GlyphBanana?style=flat&label=stars)](https://github.com/yuriYanZeXuan/GlyphBanana/stargazers) | - | L1+L2 | Image | Glyph tools and workflow execution | 2026-03 |
 | [Collaborative Text-to-Image Generation via Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2510.10633) | - | - | L1+L2 | Image | Learned multi-agent execution | 2025-10 |
@@ -227,6 +228,7 @@ L3 controllers observe a generated artifact, rendered state, tool result, verifi
 
 | Paper | GitHub | Website | Path | Modality | Primary mechanism | Date |
 | --- | :---: | :---: | :---: | :---: | --- | :---: |
+| [What to Edit Next: Visually Aligned Image-Editing Follow-Up Suggestions in Conversational Systems](https://arxiv.org/abs/2608.07565) | - | - | L1+L3 | Image, Editing | Current-image-conditioned follow-up edit policy | 2026-08 |
 | [Crayotter](https://arxiv.org/abs/2606.07636) | [GitHub](https://github.com/idwts/Crayotter) [![Stars](https://img.shields.io/github/stars/idwts/Crayotter?style=flat&label=stars)](https://github.com/idwts/Crayotter/stargazers) | - | L1+L2+L3 | Video, Editing | Traceable iterative workflow | 2026-06 |
 | [Aurora](https://arxiv.org/abs/2605.18748) | [GitHub](https://github.com/yeates/Aurora) [![Stars](https://img.shields.io/github/stars/yeates/Aurora?style=flat&label=stars)](https://github.com/yeates/Aurora/stargazers) | [Website](https://yeates.github.io/Aurora-Page/) | L1+L2+L3 | Video, Editing | Tool-using video editor | 2026-05 |
 | [EditRefiner](https://arxiv.org/abs/2605.07457) | [GitHub](https://github.com/IntMeGroup/EditRefiner) [![Stars](https://img.shields.io/github/stars/IntMeGroup/EditRefiner?style=flat&label=stars)](https://github.com/IntMeGroup/EditRefiner/stargazers) | - | L1+L3 | Editing | Human-aligned iterative refinement | 2026-05 |
@@ -246,6 +248,7 @@ L3 controllers observe a generated artifact, rendered state, tool result, verifi
 
 | Paper | GitHub | Website | Path | Modality | Primary mechanism | Date |
 | --- | :---: | :---: | :---: | :---: | --- | :---: |
+| [AVA-Encoder: Towards Agent-Native Video Representation Learning](https://arxiv.org/abs/2608.12313) | [GitHub](https://github.com/HBDYW/AVA-Encoder) [![Stars](https://img.shields.io/github/stars/HBDYW/AVA-Encoder?style=flat&label=stars)](https://github.com/HBDYW/AVA-Encoder/stargazers) | [Website](https://ava-encoder.github.io/) | L1+L3 | Video | Reconstruction-feedback refinement of a film knowledge graph | 2026-08 |
 | [VideoCoCo: Code-as-CoT for Physically-Consistent Video Generation via an Agentic Dual-Engine System](https://arxiv.org/abs/2607.27380) | [GitHub](https://github.com/micky-li-hd/VideoCoCo) [![Stars](https://img.shields.io/github/stars/micky-li-hd/VideoCoCo?style=flat&label=stars)](https://github.com/micky-li-hd/VideoCoCo/stargazers) | - | L1+L2+L3 | Video, 3D | Executable simulation, draft inspection, and conditioned editing | 2026-07 |
 | [ViMax](https://arxiv.org/abs/2606.07649) | [GitHub](https://github.com/HKUDS/ViMax) [![Stars](https://img.shields.io/github/stars/HKUDS/ViMax?style=flat&label=stars)](https://github.com/HKUDS/ViMax/stargazers) | - | L1+L2+L3 | Video | Agentic video workflow | 2026-06 |
 | [ReCA: Multi-Shot Long Video Extrapolation via Recursive Context Allocation](https://arxiv.org/abs/2605.26525) | [GitHub (announced)](https://github.com/ali-vilab/ReCA) | [Website](https://reca.vmv.re/) | L1+L2+L3 | Video | Recursive context allocation and state refresh | 2026-05 |
@@ -300,6 +303,7 @@ These resources evaluate outputs, trajectories, controllers, or supporting signa
 
 | Resource | GitHub | Website | Scope | Type | Date |
 | --- | :---: | :---: | --- | --- | :---: |
+| [AgentGen-Bench (SearchGen)](https://arxiv.org/abs/2607.05382) | [GitHub](https://github.com/HaozheH3/SearchGen) [![Stars](https://img.shields.io/github/stars/HaozheH3/SearchGen?style=flat&label=stars)](https://github.com/HaozheH3/SearchGen/stargazers) | [Website](https://haozheh3.github.io/SearchGen/) | Search-intensive and no-search image prompts | Knowledge-grounded generation benchmark | 2026-07 |
 | [IA-Bench](https://arxiv.org/abs/2606.26907) | - | - | Planning, reasoning, search, and memory in image generation | Agent benchmark | 2026-06 |
 | [MSVE-Bench and NB-Q](https://arxiv.org/abs/2605.26525) | [GitHub (announced)](https://github.com/ali-vilab/ReCA) | [Website](https://reca.vmv.re/) | 3–5 minute multi-shot video extrapolation | Benchmark and source-grounded protocol | 2026-05 |
 | [AtelierEval](https://arxiv.org/abs/2605.22645) | - | - | Human and LLM prompters | Prompter evaluation | 2026-05 |
