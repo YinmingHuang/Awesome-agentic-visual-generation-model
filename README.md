@@ -22,6 +22,7 @@ The primary organization follows the maximum control authority of the system. Mo
 
 - [Scope and inclusion rule](#scope-and-inclusion-rule)
 - [Controller-capability taxonomy](#controller-capability-taxonomy)
+- [Supporting Components: the L0 Boundary](#supporting-components-the-l0-boundary)
 - [L1: Conditioning Control](#l1-conditioning-control)
 - [L2: Execution Control](#l2-execution-control)
 - [L3: Outcome-Adaptive Control](#l3-outcome-adaptive-control)
@@ -108,6 +109,36 @@ L1 controllers construct or modify the information supplied to a generator. Gene
 | [RealRAG](https://arxiv.org/abs/2502.00848) | [GitHub](https://github.com/charles-xjy/realrag) [![Stars](https://img.shields.io/github/stars/charles-xjy/realrag?style=flat&label=stars)](https://github.com/charles-xjy/realrag/stargazers) | - | L1 | Image | Self-reflective retrieval training | 2025-02 |
 | [VideoGen-of-Thought](https://arxiv.org/abs/2412.02259) | [GitHub](https://github.com/DuNGEOnmassster/VideoGen-of-Thought) [![Stars](https://img.shields.io/github/stars/DuNGEOnmassster/VideoGen-of-Thought?style=flat&label=stars)](https://github.com/DuNGEOnmassster/VideoGen-of-Thought/stargazers) | [Website](https://cheliosoops.github.io/VGoT/) | L1 | Video | Shot and identity planning | 2024-12 |
 
+
+### Additional papers screened from Awesome-Agentic-Gen
+
+| Paper | GitHub | Website | Path | Modality | Primary mechanism | Date |
+| --- | :---: | :---: | :---: | :---: | --- | :---: |
+| [Beyond Starry Night: Shortcut-Aware Control-State Planning for Artist-Grounded Text to Image Generation](https://arxiv.org/abs/2608.06751) | - | - | L1 | Image | Condition construction and planning | 2026-08 |
+| [DAC-Pose: Dual-Agent Collaborative Framework for Pose-Guided Human Generation](https://arxiv.org/abs/2608.04622) | - | - | L1 | Image | Condition construction and planning | 2026-08 |
+| [CinemaTraj: Composing Atomic Camera Trajectories for 3D Scenes with LLM Agents](https://arxiv.org/abs/2607.26910) | - | - | L1 | Video | Condition construction and planning | 2026-07 |
+| [AgentHOI: Multi-Agent Reasoning for Human-Object-Interaction Video Generation via Implicit Representation Alignment](https://arxiv.org/abs/2607.22241) | - | - | L1 | Video | Condition construction and planning | 2026-07 |
+| [Agentic Designer: Progressive Multi-Agent Collaboration for Structure-Aware Interior Layout Generation](https://arxiv.org/abs/2607.20866) | - | - | L1 | 3D | Condition construction and planning | 2026-07 |
+| [Clarify Before Executing: A Self-Evolving Agent for Resolving Intent Asymmetry in 3D Tool Orchestration](https://arxiv.org/abs/2607.16352) | - | - | L1 | 3D | Condition construction and planning | 2026-07 |
+| [NaLA: A 3D Native LLM Layout Agent for High-quality 3D Scene Generation](https://arxiv.org/abs/2606.29395) | - | - | L1 | 3D | Condition construction and planning | 2026-06 |
+| [TempAct: Advancing Temporal Plausibility in Autoregressive Video Generation via Planner-Executor RL](https://arxiv.org/abs/2606.28016) | - | - | L1 | Video | Condition construction and planning | 2026-06 |
+| [RS-Gen: A Multi-Stage Agentic Framework for Reasoning and Search-Augmented Image Generation](https://arxiv.org/abs/2606.23221) | - | - | L1 | Image | Condition construction and planning | 2026-06 |
+| [One Image is All You Need: Agentic One-Shot Image Generation via Text-Based World Models for Long-Tail Spatial Perception](https://arxiv.org/abs/2606.20764) | - | - | L1 | World | Condition construction and planning | 2026-06 |
+| [CogPortrait: Fine-Grained Eye-Region Control in Portrait Animation via Hierarchical Agent Planning](https://arxiv.org/abs/2605.28056) | - | - | L1 | Video | Condition construction and planning | 2026-05 |
+| [S2ED: From Story to Executable Descriptions for Consistency-Aware Story Illustration](https://arxiv.org/abs/2605.22448) | - | - | L1 | Image | Condition construction and planning | 2026-05 |
+| [Action Agent: Agentic Video Generation Meets Flow-Constrained Diffusion](https://arxiv.org/abs/2605.01477) | - | - | L1 | Video | Condition construction and planning | 2026-05 |
+| [Self-Reasoning Agentic Framework for Narrative Product Grid-Collage Generation](https://arxiv.org/abs/2604.16958) | - | - | L1 | Image | Condition construction and planning | 2026-04 |
+| [CANVAS: Continuity-Aware Narratives via Visual Agentic Storyboarding](https://arxiv.org/abs/2604.13452) | - | - | L1 | Image | Condition construction and planning | 2026-04 |
+| [Feynman: Knowledge-Infused Diagramming Agent for Scalable Visual Designs](https://arxiv.org/abs/2603.12597) | - | - | L1 | Image | Condition construction and planning | 2026-03 |
+| [Agentic Planning with Reasoning for Image Styling via Offline RL](https://arxiv.org/abs/2603.07148) | - | - | L1 | Image | Condition construction and planning | 2026-03 |
+| [StruVis: Enhancing Reasoning-based Text-to-Image Generation via Thinking with Structured Vision](https://arxiv.org/abs/2603.06032) | - | - | L1 | Image | Condition construction and planning | 2026-03 |
+| [Vision-as-Inverse-Graphics Agent via Interleaved Multimodal Reasoning](https://arxiv.org/abs/2601.11109) | - | - | L1 | Image | Condition construction and planning | 2026-01 |
+| [Think-Then-Generate: Reasoning-Aware Text-to-Image Diffusion with LLM Encoders](https://arxiv.org/abs/2601.10332) | - | - | L1 | Image | Condition construction and planning | 2026-01 |
+| [Open Multimodal Retrieval-Augmented Factual Image Generation](https://arxiv.org/abs/2510.22521) | - | - | L1 | Image | Condition construction and planning | 2025-10 |
+| [Interleaving Reasoning for Better Text-to-Image Generation](https://arxiv.org/abs/2509.06945) | - | - | L1 | Image | Condition construction and planning | 2025-09 |
+| [IA-T2I: Internet-Augmented Text-to-Image Generation](https://arxiv.org/abs/2505.15779) | - | - | L1 | Image | Condition construction and planning | 2025-05 |
+| [When Cultures Meet: Multicultural Text-to-Image Generation](https://arxiv.org/abs/2502.15972) | - | - | L1 | Image | Condition construction and planning | 2025-02 |
+
 [Back to top](#awesome-agentic-visual-generation)
 
 ## L2: Execution Control
@@ -163,6 +194,79 @@ L2 controllers select and invoke generation-related capabilities. They can choos
 | [ScreenCoder: Advancing Visual-to-Code Generation for Front-End Automation via Modular Multimodal Agents](https://arxiv.org/abs/2507.22827) | [GitHub](https://github.com/leigest519/ScreenCoder) [![Stars](https://img.shields.io/github/stars/leigest519/ScreenCoder?style=flat&label=stars)](https://github.com/leigest519/ScreenCoder/stargazers) | - | L1+L2 | UI | Grounding, hierarchical planning, and code-generation agents | 2025-07 |
 | [Talk to Your Slides: High-Efficiency Slide Editing via Language-Driven Structured Data Manipulation](https://arxiv.org/abs/2505.11604) | [GitHub](https://github.com/KyuDan1/Talk-to-Your-Slides) [![Stars](https://img.shields.io/github/stars/KyuDan1/Talk-to-Your-Slides?style=flat&label=stars)](https://github.com/KyuDan1/Talk-to-Your-Slides/stargazers) | - | L1+L2 | Slide, Editing | Semantic planning and PowerPoint object-model execution | 2025-05 |
 | [PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides](https://arxiv.org/abs/2501.03936) | [GitHub](https://github.com/icip-cas/PPTAgent) [![Stars](https://img.shields.io/github/stars/icip-cas/PPTAgent?style=flat&label=stars)](https://github.com/icip-cas/PPTAgent/stargazers) | - | L1+L2 | Slide | Reference analysis and edit-action generation | 2025-01 |
+
+
+### Additional papers screened from Awesome-Agentic-Gen
+
+| Paper | GitHub | Website | Path | Modality | Primary mechanism | Date |
+| --- | :---: | :---: | :---: | :---: | --- | :---: |
+| [WorldClaw: Agentic 3D Open-World Generation at Scale](https://arxiv.org/abs/2608.05248) | - | - | L1+L2 | 3D | Tool and workflow orchestration | 2026-08 |
+| [SeaSlides: Semantic Abstraction Layer for Agentic Slide Generation](https://arxiv.org/abs/2608.03298) | - | - | L1+L2 | Slide | Tool and workflow orchestration | 2026-08 |
+| [PosterMELD: Multi-Agent Paper-to-Poster Generation for Controllable Design Diversity with Editable Print-Ready Outputs](https://arxiv.org/abs/2608.02218) | - | - | L1+L2 | Image, Editing | Tool and workflow orchestration | 2026-08 |
+| [CADIR: A Cross-Backend Editable Intermediate Representation for Agentic CAD Generation](https://arxiv.org/abs/2608.00891) | - | - | L1+L2 | Slide, Editing | Tool and workflow orchestration | 2026-08 |
+| [ParticleGen: A Multi-Agent System for Particle Effects Generation](https://arxiv.org/abs/2608.00629) | - | - | L1+L2 | Image | Tool and workflow orchestration | 2026-08 |
+| [JarvisHub: An Open Harness for Canvas-Native Multimodal Creative Agents](https://arxiv.org/abs/2607.23588) | - | - | L1+L2 | Image | Tool and workflow orchestration | 2026-07 |
+| [ETPDesigner: Multi-Agent Orchestration for Interactive Multimodal Electronic Theater Program](https://arxiv.org/abs/2607.19947) | - | - | L1+L2 | Image | Tool and workflow orchestration | 2026-07 |
+| [Knowledge-Centric Agents for Workflow Generation in ComfyUI](https://arxiv.org/abs/2607.15845) | - | - | L1+L2 | Image | Tool and workflow orchestration | 2026-07 |
+| [Boogu-Image-0.1: Boosting Open Agentic Multimodal Generation via Understanding under a Minimal Budget](https://arxiv.org/abs/2607.13125) | - | - | L1+L2 | Image | Tool and workflow orchestration | 2026-07 |
+| [MAGIC: Transition-Aware Generation of Navigable Multi-Scene Game Worlds with Large Language Models](https://arxiv.org/abs/2607.11594) | - | - | L1+L2 | World | Tool and workflow orchestration | 2026-07 |
+| [Exploring Agentic Workflows for Generating High Quality Math Visual Aids](https://arxiv.org/abs/2607.09839) | - | - | L1+L2 | Image | Tool and workflow orchestration | 2026-07 |
+| [CoGen3D: An Agentic Human-AI Co-Design Pipeline for 3D Asset Generation for Virtual Reality](https://arxiv.org/abs/2607.03731) | - | - | L1+L2 | 3D | Tool and workflow orchestration | 2026-07 |
+| [OmniPresent: Generating Coherent Presentation Suites from Scientific Papers](https://arxiv.org/abs/2607.02590) | - | - | L1+L2 | Slide | Tool and workflow orchestration | 2026-07 |
+| [SimWorlds: A Multi-Agent System for Dynamic 3D Scene Creation](https://arxiv.org/abs/2607.01766) | - | - | L1+L2 | 3D | Tool and workflow orchestration | 2026-07 |
+| [OrchestrXR: A Multi-Agent System for Idea-to-Prototype XR Study Authoring](https://arxiv.org/abs/2607.01588) | - | - | L1+L2 | World | Tool and workflow orchestration | 2026-07 |
+| [SAGE: Structured Agentic Graph Editing for Software Diagrams](https://arxiv.org/abs/2607.01102) | - | - | L1+L2 | Image, Editing | Tool and workflow orchestration | 2026-07 |
+| [VideoAgent: All-in-One Framework for Video Understanding and Editing](https://arxiv.org/abs/2606.23327) | - | - | L1+L2 | Video, Editing | Tool and workflow orchestration | 2026-06 |
+| [OmniDrive: An LLM-Choreographed Multi-Agent World Model with Unified Latent Co-Compression for Multi-View Driving Video Generation](https://arxiv.org/abs/2606.17536) | - | - | L1+L2 | Video | Tool and workflow orchestration | 2026-06 |
+| [HDSL: A Hierarchical Domain-Specific Language for Structured 3D Indoor Scene Generation and Localized Editing with LLM Agents](https://arxiv.org/abs/2606.09738) | - | - | L1+L2 | 3D, Editing | Tool and workflow orchestration | 2026-06 |
+| [SceneConductor: 3D Scene Generation from a Single Image with Multi-Agent Orchestration](https://arxiv.org/abs/2606.08402) | - | - | L1+L2 | 3D | Tool and workflow orchestration | 2026-06 |
+| [Any2Poster: Any-Source Poster Generation Across Modalities and Domains](https://arxiv.org/abs/2606.02915) | - | - | L1+L2 | Image | Tool and workflow orchestration | 2026-06 |
+| [TVIR: Building Deep Research Agents Towards Text-Visual Interleaved Report Generation](https://arxiv.org/abs/2606.02320) | - | - | L1+L2 | Image | Tool and workflow orchestration | 2026-06 |
+| [Crafter: A Multi-Agent Harness for Editable Scientific Figure Generation from Diverse Inputs](https://arxiv.org/abs/2605.30611) | - | - | L1+L2 | Image, Editing | Tool and workflow orchestration | 2026-05 |
+| [MangaFlow: An End-to-End Agentic Framework for Controllable Story to Manga Generation](https://arxiv.org/abs/2605.28173) | - | - | L1+L2 | Image | Tool and workflow orchestration | 2026-05 |
+| [Code2UML: Agentic LLMs with context engineering for scalable software visualization](https://arxiv.org/abs/2605.24453) | - | - | L1+L2 | Image | Tool and workflow orchestration | 2026-05 |
+| [LiveFigure: Generating Editable Scientific Illustration with VLM Agents](https://arxiv.org/abs/2605.23527) | - | - | L1+L2 | Image, Editing | Tool and workflow orchestration | 2026-05 |
+| [One Sentence, One Drama: Personalized Short-Form Drama Generation via Multi-Agent Systems](https://arxiv.org/abs/2605.22144) | - | - | L1+L2 | Video | Tool and workflow orchestration | 2026-05 |
+| [SceneCode: Executable World Programs for Editable Indoor Scenes with Articulated Objects](https://arxiv.org/abs/2605.19587) | - | - | L1+L2 | World, Editing | Tool and workflow orchestration | 2026-05 |
+| [Soap2Soap: Long Cinematic Video Remaking via Multi-Agent Collaboration](https://arxiv.org/abs/2605.17423) | - | - | L1+L2 | Video | Tool and workflow orchestration | 2026-05 |
+| [Articraft: An Agentic System for Scalable Articulated 3D Asset Generation](https://arxiv.org/abs/2605.15187) | - | - | L1+L2 | 3D | Tool and workflow orchestration | 2026-05 |
+| [PresentAgent-2: Towards Generalist Multimodal Presentation Agents](https://arxiv.org/abs/2605.11363) | - | - | L1+L2 | Slide | Tool and workflow orchestration | 2026-05 |
+| [Cutscene Agent: An LLM Agent Framework for Automated 3D Cutscene Generation](https://arxiv.org/abs/2604.25318) | - | - | L1+L2 | 3D | Tool and workflow orchestration | 2026-04 |
+| [CineAGI: Character-Consistent Movie Creation through LLM-Orchestrated Multi-Modal Generation and Cross-Scene Integration](https://arxiv.org/abs/2604.23579) | - | - | L1+L2 | Video | Tool and workflow orchestration | 2026-04 |
+| [Authoring for Living Worlds: Tool-Constrained LLM Agents for Executable Multi-Actor Scenarios](https://arxiv.org/abs/2604.10383) | - | - | L1+L2 | World | Tool and workflow orchestration | 2026-04 |
+| [Sima 1.0: A Collaborative Multi-Agent Framework for Documentary Video Production](https://arxiv.org/abs/2604.07721) | - | - | L1+L2 | Video | Tool and workflow orchestration | 2026-04 |
+| [Automatic Method Illustration Generation for AI Scientific Papers via Drawing Middleware Creation, Evolution, and Orchestration](https://arxiv.org/abs/2603.29590) | - | - | L1+L2 | Image | Tool and workflow orchestration | 2026-03 |
+| [Towards Context-Aware Image Anonymization with Multi-Agent Reasoning](https://arxiv.org/abs/2603.27817) | - | - | L1+L2 | Image, Editing | Tool and workflow orchestration | 2026-03 |
+| [Learning to Present: Inverse Specification Rewards for Agentic Slide Generation](https://arxiv.org/abs/2603.16839) | - | - | L1+L2 | Slide | Tool and workflow orchestration | 2026-03 |
+| [Mind-of-Director: Multi-modal Agent-Driven Film Previsualization via Collaborative Decision-Making](https://arxiv.org/abs/2603.14790) | - | - | L1+L2 | Video | Tool and workflow orchestration | 2026-03 |
+| [GameUIAgent: An LLM-Powered Framework for Automated Game UI Design with Structured Intermediate Representation](https://arxiv.org/abs/2603.14724) | - | - | L1+L2 | Slide | Tool and workflow orchestration | 2026-03 |
+| [MANSION: Multi-floor lANguage-to-3D Scene generatIOn for loNg-horizon tasks](https://arxiv.org/abs/2603.11554) | - | - | L1+L2 | 3D | Tool and workflow orchestration | 2026-03 |
+| [COMIC: Agentic Sketch Comedy Generation](https://arxiv.org/abs/2603.11048) | - | - | L1+L2 | Image | Tool and workflow orchestration | 2026-03 |
+| [AutoUE: Automated Generation of 3D Games in Unreal Engine via Multi-Agent Systems](https://arxiv.org/abs/2603.07106) | - | - | L1+L2 | 3D | Tool and workflow orchestration | 2026-03 |
+| [InfinityStory: Unlimited Video Generation with World Consistency and Character-Aware Shot Transitions](https://arxiv.org/abs/2603.03646) | - | - | L1+L2 | Video | Tool and workflow orchestration | 2026-03 |
+| [AnimeAgent: Is the Multi-Agent via Image-to-Video models a Good Disney Storytelling Artist?](https://arxiv.org/abs/2602.20664) | - | - | L1+L2 | Video | Tool and workflow orchestration | 2026-02 |
+| [PhyScensis: Physics-Augmented LLM Agents for Complex Physical Scene Arrangement](https://arxiv.org/abs/2602.14968) | - | - | L1+L2 | Image | Tool and workflow orchestration | 2026-02 |
+| [SAGE: Scalable Agentic 3D Scene Generation for Embodied AI](https://arxiv.org/abs/2602.10116) | - | - | L1+L2 | 3D | Tool and workflow orchestration | 2026-02 |
+| [SceneSmith: Agentic Generation of Simulation-Ready Indoor Scenes](https://arxiv.org/abs/2602.09153) | - | - | L1+L2 | Image | Tool and workflow orchestration | 2026-02 |
+| [PaperX: A Unified Framework for Multimodal Academic Presentation Generation with Scholar DAG](https://arxiv.org/abs/2602.03866) | - | - | L1+L2 | Slide | Tool and workflow orchestration | 2026-02 |
+| [The Script is All You Need: An Agentic Framework for Long-Horizon Dialogue-to-Cinematic Video Generation](https://arxiv.org/abs/2601.17737) | - | - | L1+L2 | Video | Tool and workflow orchestration | 2026-01 |
+| [World Craft: Agentic Framework to Create Visualizable Worlds via Text](https://arxiv.org/abs/2601.09150) | - | - | L1+L2 | World | Tool and workflow orchestration | 2026-01 |
+| [APEX: Academic Poster Editing Agentic Expert](https://arxiv.org/abs/2601.04794) | - | - | L1+L2 | 3D, Editing | Tool and workflow orchestration | 2026-01 |
+| [MiLDEdit: Reasoning-Based Multi-Layer Design Document Editing](https://arxiv.org/abs/2601.04589) | - | - | L1+L2 | Image, Editing | Tool and workflow orchestration | 2026-01 |
+| [SciFig: Towards Automating Editable Figure Generation for Scientific Papers](https://arxiv.org/abs/2601.04390) | - | - | L1+L2 | Image, Editing | Tool and workflow orchestration | 2026-01 |
+| [ComfySearch: Autonomous Exploration and Reasoning for ComfyUI Workflows](https://arxiv.org/abs/2601.04060) | - | - | L1+L2 | Image | Tool and workflow orchestration | 2026-01 |
+| [A Versatile Multimodal Agent for Multimedia Content Generation](https://arxiv.org/abs/2601.03250) | - | - | L1+L2 | Image, Video | Tool and workflow orchestration | 2026-01 |
+| [From Pixels to Paths: A Multi-Agent Framework for Editable Scientific Illustration](https://arxiv.org/abs/2510.27452) | - | - | L1+L2 | Image, Editing | Tool and workflow orchestration | 2025-10 |
+| [PosterGen: Aesthetic-Aware Multi-Modal Paper-to-Poster Generation via Multi-Agent LLMs](https://arxiv.org/abs/2508.17188) | - | - | L1+L2 | Image | Tool and workflow orchestration | 2025-08 |
+| [A Unified Multi-Agent Framework for Universal Multimodal Understanding and Generation](https://arxiv.org/abs/2508.10494) | - | - | L1+L2 | Image | Tool and workflow orchestration | 2025-08 |
+| [Captain Cinema: Towards Short Movie Generation](https://arxiv.org/abs/2507.18634) | - | - | L1+L2 | Video | Tool and workflow orchestration | 2025-07 |
+| [AniMaker: Multi-Agent Animated Storytelling with MCTS-Driven Clip Generation](https://arxiv.org/abs/2506.10540) | - | - | L1+L2 | Image | Tool and workflow orchestration | 2025-06 |
+| [ComfyUI-R1: Exploring Reasoning Models for Workflow Generation](https://arxiv.org/abs/2506.09790) | - | - | L1+L2 | Image | Tool and workflow orchestration | 2025-06 |
+| [ComfyUI-Copilot: An Intelligent Assistant for Automated Workflow Development](https://arxiv.org/abs/2506.05010) | - | - | L1+L2 | Image | Tool and workflow orchestration | 2025-06 |
+| [Gen-n-Val: Agentic Image Data Generation and Validation](https://arxiv.org/abs/2506.04676) | - | - | L1+L2 | Image | Tool and workflow orchestration | 2025-06 |
+| [PreGenie: An Agentic Framework for High-quality Visual Presentation Generation](https://arxiv.org/abs/2505.21660) | - | - | L1+L2 | Slide | Tool and workflow orchestration | 2025-05 |
+| [CREA: A Collaborative Multi-Agent Framework for Creative Image Editing and Generation](https://arxiv.org/abs/2504.05306) | - | - | L1+L2 | Image, Editing | Tool and workflow orchestration | 2025-04 |
+| [ComfyGPT: A Self-Optimizing Multi-Agent System for Comprehensive ComfyUI Workflow Generation](https://arxiv.org/abs/2503.17671) | - | - | L1+L2 | Image | Tool and workflow orchestration | 2025-03 |
 
 [Back to top](#awesome-agentic-visual-generation)
 
@@ -277,6 +381,78 @@ L3 controllers observe a generated artifact, rendered state, tool result, verifi
 | [Auto-Slides: An Interactive Multi-Agent System for Creating and Customizing Research Presentations](https://arxiv.org/abs/2509.11062) | [GitHub](https://github.com/Westlake-AGI-Lab/Auto-Slides) [![Stars](https://img.shields.io/github/stars/Westlake-AGI-Lab/Auto-Slides?style=flat&label=stars)](https://github.com/Westlake-AGI-Lab/Auto-Slides/stargazers) | [Website](https://auto-slides.github.io/) | L1+L2+L3 | Slide | Multi-agent planning, verification, repair, and interactive refinement | 2025-09 |
 | [DesignCoder: Hierarchy-Aware and Self-Correcting UI Code Generation with Large Language Models](https://arxiv.org/abs/2506.13663) | - | - | L1+L2+L3 | UI | Hierarchy-aware generation and vision-guided self-correction | 2025-06 |
 
+
+### Additional papers screened from Awesome-Agentic-Gen
+
+| Paper | GitHub | Website | Path | Modality | Primary mechanism | Date |
+| --- | :---: | :---: | :---: | :---: | --- | :---: |
+| [StateFlow: Building, Evolving, and Accessing 3D World States for Previsualization](https://arxiv.org/abs/2608.12314) | - | - | L1+L2+L3 | 3D | Outcome-aware verification and revision | 2026-08 |
+| [Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence](https://arxiv.org/abs/2608.12290) | - | - | L1+L2+L3 | Video | Outcome-aware verification and revision | 2026-08 |
+| [VisPuzzle: Task-Aware Composite Visualization Construction](https://arxiv.org/abs/2608.11635) | - | - | L1+L2+L3 | Image | Outcome-aware verification and revision | 2026-08 |
+| [iARCS: Iterative Agentic RL for Controllable 3D Scene Generation](https://arxiv.org/abs/2608.06161) | - | - | L1+L2+L3 | 3D | Outcome-aware verification and revision | 2026-08 |
+| [Domain-Grounded Candidate Selection for Agentic Image Editing: A Shadow Removal Case](https://arxiv.org/abs/2608.06075) | - | - | L1+L2+L3 | Image, Editing | Outcome-aware verification and revision | 2026-08 |
+| [Monte Carlo Tree Search for Table-to-Multimodal Report Generation](https://arxiv.org/abs/2608.04071) | - | - | L1+L2+L3 | Image | Outcome-aware verification and revision | 2026-08 |
+| [Crayotter: Learning Long-Horizon Video Editing Agents via Group-Relative Preference Backpropagation](https://arxiv.org/abs/2608.02694) | - | - | L1+L2+L3 | Video, Editing | Outcome-aware verification and revision | 2026-08 |
+| [DrawAI: Agentic Benchmark and Workflow for Making Raster Images Editable](https://arxiv.org/abs/2608.00548) | - | - | L1+L2+L3 | Image, Editing | Outcome-aware verification and revision | 2026-08 |
+| [GVR-Coder: A Visual-Feedback Framework for Structured SVG Generation in Complex Document and Meeting Scenarios](https://arxiv.org/abs/2607.28073) | - | - | L1+L2+L3 | Image | Outcome-aware verification and revision | 2026-07 |
+| [PRISM: Prompt Refinement via Image-grounded Self-rewarding Mechanism for Text-to-Image Generation](https://arxiv.org/abs/2607.24353) | - | - | L1+L2+L3 | Image | Outcome-aware verification and revision | 2026-07 |
+| [What Can I Edit? Open-Ended Strategy Discovery and the Emotion Editability Landscape](https://arxiv.org/abs/2607.23920) | - | - | L1+L2+L3 | Image, Editing | Outcome-aware verification and revision | 2026-07 |
+| [PlanCraft: Sketch, Refine, and Furnish for Architect-Inspired Progressive 3D Residential Scene Generation](https://arxiv.org/abs/2607.23491) | - | - | L1+L2+L3 | 3D | Outcome-aware verification and revision | 2026-07 |
+| [GS-Agent: Creating 4D Physical Worlds With Generative Simulation](https://arxiv.org/abs/2607.21522) | - | - | L1+L2+L3 | World | Outcome-aware verification and revision | 2026-07 |
+| [Engine-Native Editable 3D World Reconstruction with Objects and Lighting](https://arxiv.org/abs/2607.20889) | - | - | L1+L2+L3 | 3D, Editing | Outcome-aware verification and revision | 2026-07 |
+| [FilmWorld: Agentic Novel-to-Film Generation through Dynamic Cinematic World Modeling](https://arxiv.org/abs/2607.19038) | - | - | L1+L2+L3 | Video | Outcome-aware verification and revision | 2026-07 |
+| [PhysAgent: Reflective Agentic Physics Control for Physically Plausible Video Generation](https://arxiv.org/abs/2607.16355) | - | - | L1+L2+L3 | Video | Outcome-aware verification and revision | 2026-07 |
+| [Cognitive-structured Multimodal Agent for Multimodal Understanding, Generation, and Editing](https://arxiv.org/abs/2607.08497) | - | - | L1+L2+L3 | Image, Editing | Outcome-aware verification and revision | 2026-07 |
+| [CanvasAgent: Enabling Complex Image Creation and Editing via Visual Tool Orchestration](https://arxiv.org/abs/2607.05465) | - | - | L1+L2+L3 | Image, Editing | Outcome-aware verification and revision | 2026-07 |
+| [PairCoder++: Pair Programming as a Universal Paradigm for Verified Code-Driven Multimodal and Structured-Artifact Generation](https://arxiv.org/abs/2607.01883) | - | - | L1+L2+L3 | Image | Outcome-aware verification and revision | 2026-07 |
+| [GMO-E$^2$DIT: Grounded Multi-Operation Editing for E-Commerce Images](https://arxiv.org/abs/2607.00920) | - | - | L1+L2+L3 | Image, Editing | Outcome-aware verification and revision | 2026-07 |
+| [Taming I2V models for Image HOI Editing: A Cognitive Benchmark and Agentic Self-Correcting Framework](https://arxiv.org/abs/2606.19073) | - | - | L1+L2+L3 | Image, Editing | Outcome-aware verification and revision | 2026-06 |
+| [Bridging Creative Intent and Visual Quality: Creator-Driven Recurrent Video Generation with Agentic Feedback Loops](https://arxiv.org/abs/2606.18591) | - | - | L1+L2+L3 | Video | Outcome-aware verification and revision | 2026-06 |
+| [Closed-Loop Triplet Synergistic Generation for Long-Form Video](https://arxiv.org/abs/2606.16184) | - | - | L1+L2+L3 | Video | Outcome-aware verification and revision | 2026-06 |
+| [SceneCraft: Interactive System for Image Editing via Scene Graph](https://arxiv.org/abs/2606.16103) | - | - | L1+L2+L3 | Image, Editing | Outcome-aware verification and revision | 2026-06 |
+| [MUSE: Agentic 3D Scene Authoring via Memory-Grounded Incremental Requirement Satisfaction](https://arxiv.org/abs/2606.14168) | - | - | L1+L2+L3 | 3D | Outcome-aware verification and revision | 2026-06 |
+| [Temporal Backtracking Search for Test-time Generative Video Reasoning](https://arxiv.org/abs/2606.13861) | - | - | L1+L2+L3 | Video | Outcome-aware verification and revision | 2026-06 |
+| [InterleaveThinker: Reinforcing Agentic Interleaved Generation](https://arxiv.org/abs/2606.13679) | - | - | L1+L2+L3 | Image | Outcome-aware verification and revision | 2026-06 |
+| [IterCAD: An Iterative Multimodal Agent for Visually-Grounded CAD Generation and Editing](https://arxiv.org/abs/2606.13368) | - | - | L1+L2+L3 | 3D, Editing | Outcome-aware verification and revision | 2026-06 |
+| [IEA: Amateur-Friendly Conversational Image Editing Agent via Three Stages of Multitask Alignment](https://arxiv.org/abs/2606.08016) | - | - | L1+L2+L3 | Image, Editing | Outcome-aware verification and revision | 2026-06 |
+| [Global-Local Monte Carlo Tree Search in Vision-Language Models for Text-to-3D Indoor Scene Generation](https://arxiv.org/abs/2606.06002) | - | - | L1+L2+L3 | 3D | Outcome-aware verification and revision | 2026-06 |
+| [Genflow Ad Studio: A Compound AI Architecture for Brand-Aligned, Self-Correcting Video Generation](https://arxiv.org/abs/2605.16748) | - | - | L1+L2+L3 | Video | Outcome-aware verification and revision | 2026-05 |
+| [From Plans to Pixels: Learning to Plan and Orchestrate for Open-Ended Image Editing](https://arxiv.org/abs/2605.15181) | - | - | L1+L2+L3 | Image, Editing | Outcome-aware verification and revision | 2026-05 |
+| [PhysCodeBench: Benchmarking Physics-Aware Symbolic Simulation of 3D Scenes via Self-Corrective Multi-Agent Refinement](https://arxiv.org/abs/2604.23580) | - | - | L1+L2+L3 | 3D | Outcome-aware verification and revision | 2026-04 |
+| [Render-in-the-Loop: Vector Graphics Generation via Visual Self-Feedback](https://arxiv.org/abs/2604.20730) | - | - | L1+L2+L3 | Image | Outcome-aware verification and revision | 2026-04 |
+| [Making Image Editing Easier via Adaptive Task Reformulation with Agentic Executions](https://arxiv.org/abs/2604.15917) | - | - | L1+L2+L3 | Image, Editing | Outcome-aware verification and revision | 2026-04 |
+| [Lighting-grounded Video Generation with Renderer-based Agent Reasoning](https://arxiv.org/abs/2604.07966) | - | - | L1+L2+L3 | Video | Outcome-aware verification and revision | 2026-04 |
+| [SCMAPR: Self-Correcting Multi-Agent Prompt Refinement for Complex-Scenario Text-to-Video Generation](https://arxiv.org/abs/2604.05489) | - | - | L1+L2+L3 | Video | Outcome-aware verification and revision | 2026-04 |
+| [GLANCE: A Global-Local Coordination Multi-Agent Framework for Music-Grounded Non-Linear Video Editing](https://arxiv.org/abs/2604.05076) | - | - | L1+L2+L3 | Video, Editing | Outcome-aware verification and revision | 2026-04 |
+| [DIRECT: Video Mashup Creation via Hierarchical Multi-Agent Planning and Intent-Guided Editing](https://arxiv.org/abs/2604.04875) | - | - | L1+L2+L3 | Video, Editing | Outcome-aware verification and revision | 2026-04 |
+| [CAMEO: A Conditional and Quality-Aware Multi-Agent Image Editing Orchestrator](https://arxiv.org/abs/2604.03156) | - | - | L1+L2+L3 | Image, Editing | Outcome-aware verification and revision | 2026-04 |
+| [IMAGAgent: Orchestrating Multi-Turn Image Editing via Constraint-Aware Planning and Reflection](https://arxiv.org/abs/2603.29602) | - | - | L1+L2+L3 | Image, Editing | Outcome-aware verification and revision | 2026-03 |
+| [WorldAgents: Can Foundation Image Models be Agents for 3D World Models?](https://arxiv.org/abs/2603.19708) | - | - | L1+L2+L3 | 3D | Outcome-aware verification and revision | 2026-03 |
+| [Agentic Flow Steering and Parallel Rollout Search for Spatially Grounded Text-to-Image Generation](https://arxiv.org/abs/2603.18627) | - | - | L1+L2+L3 | Image | Outcome-aware verification and revision | 2026-03 |
+| [MSRAMIE: Multimodal Structured Reasoning Agent for Multi-instruction Image Editing](https://arxiv.org/abs/2603.16967) | - | - | L1+L2+L3 | Image, Editing | Outcome-aware verification and revision | 2026-03 |
+| [VQQA: An Agentic Approach for Video Evaluation and Quality Improvement](https://arxiv.org/abs/2603.12310) | - | - | L1+L2+L3 | Video | Outcome-aware verification and revision | 2026-03 |
+| [SceneAssistant: A Visual Feedback Agent for Open-Vocabulary 3D Scene Generation](https://arxiv.org/abs/2603.12238) | - | - | L1+L2+L3 | 3D | Outcome-aware verification and revision | 2026-03 |
+| [ImageEdit-R1: Boosting Multi-Agent Image Editing via Reinforcement Learning](https://arxiv.org/abs/2603.08059) | - | - | L1+L2+L3 | Image, Editing | Outcome-aware verification and revision | 2026-03 |
+| [VisionCreator: A Native Visual-Generation Agentic Model with Understanding, Thinking, Planning and Creation](https://arxiv.org/abs/2603.02681) | - | - | L1+L2+L3 | Image | Outcome-aware verification and revision | 2026-03 |
+| [RAISE: Requirement-Adaptive Evolutionary Refinement for Training-Free Text-to-Image Alignment](https://arxiv.org/abs/2603.00483) | - | - | L1+L2+L3 | Image | Outcome-aware verification and revision | 2026-03 |
+| [DeepPresenter: Environment-Grounded Reflection for Agentic Presentation Generation](https://arxiv.org/abs/2602.22839) | - | - | L1+L2+L3 | Slide | Outcome-aware verification and revision | 2026-02 |
+| [Vinedresser3D: Agentic Text-guided 3D Editing](https://arxiv.org/abs/2602.19542) | - | - | L1+L2+L3 | 3D, Editing | Outcome-aware verification and revision | 2026-02 |
+| [RetouchIQ: MLLM Agents for Instruction-Based Image Retouching with Generalist Reward](https://arxiv.org/abs/2602.17558) | - | - | L1+L2+L3 | Image, Editing | Outcome-aware verification and revision | 2026-02 |
+| [T2VTree: User-Centered Visual Analytics for Agent-Assisted Thought-to-Video Authoring](https://arxiv.org/abs/2602.08368) | - | - | L1+L2+L3 | Video | Outcome-aware verification and revision | 2026-02 |
+| [AutoFigure: Generating and Refining Publication-Ready Scientific Illustrations](https://arxiv.org/abs/2602.03828) | - | - | L1+L2+L3 | Image | Outcome-aware verification and revision | 2026-02 |
+| [PaperBanana: Automating Academic Illustration for AI Scientists](https://arxiv.org/abs/2601.23265) | - | - | L1+L2+L3 | 3D | Outcome-aware verification and revision | 2026-01 |
+| [PerfGuard: A Performance-Aware Agent for Visual Content Generation](https://arxiv.org/abs/2601.22571) | - | - | L1+L2+L3 | Image | Outcome-aware verification and revision | 2026-01 |
+| [3D Space as a Scratchpad for Editable Text-to-Image Generation](https://arxiv.org/abs/2601.14602) | - | - | L1+L2+L3 | 3D, Editing | Outcome-aware verification and revision | 2026-01 |
+| [From Idea to Co-Creation: A Planner-Actor-Critic Framework for Agent Augmented 3D Modeling](https://arxiv.org/abs/2601.05016) | - | - | L1+L2+L3 | 3D | Outcome-aware verification and revision | 2026-01 |
+| [I2E: From Image Pixels to Actionable Interactive Environments for Text-Guided Image Editing](https://arxiv.org/abs/2601.03741) | - | - | L1+L2+L3 | World, Editing | Outcome-aware verification and revision | 2026-01 |
+| [JarvisEvo: Towards a Self-Evolving Photo Editing Agent with Synergistic Editor-Evaluator Optimization](https://arxiv.org/abs/2511.23002) | - | - | L1+L2+L3 | Image, Editing | Outcome-aware verification and revision | 2025-11 |
+| [MIRA: Multimodal Iterative Reasoning Agent for Image Editing](https://arxiv.org/abs/2511.21087) | - | - | L1+L2+L3 | Image, Editing | Outcome-aware verification and revision | 2025-11 |
+| [An LLM-LVLM Driven Agent for Iterative and Fine-Grained Image Editing](https://arxiv.org/abs/2508.17435) | - | - | L1+L2+L3 | Image, Editing | Outcome-aware verification and revision | 2025-08 |
+| [Talk2Image: A Multi-Agent System for Multi-Turn Image Generation and Editing](https://arxiv.org/abs/2508.06916) | - | - | L1+L2+L3 | Image, Editing | Outcome-aware verification and revision | 2025-08 |
+| [Beyond Simple Edits: X-Planner for Complex Instruction-Based Image Editing](https://arxiv.org/abs/2507.05259) | - | - | L1+L2+L3 | Image, Editing | Outcome-aware verification and revision | 2025-07 |
+| [ComfyMind: Toward General-Purpose Generation via Tree-Based Planning and Reactive Feedback](https://arxiv.org/abs/2505.17908) | - | - | L1+L2+L3 | Image | Outcome-aware verification and revision | 2025-05 |
+| [Marmot: Object-Level Self-Correction via Multi-Agent Reasoning](https://arxiv.org/abs/2504.20054) | - | - | L1+L2+L3 | Image | Outcome-aware verification and revision | 2025-04 |
+
 [Back to top](#awesome-agentic-visual-generation)
 
 ## L4: Experience-Adaptive Control
@@ -292,6 +468,21 @@ L4 controllers use completed trajectories to change decisions in future tasks. P
 | [GEMS](https://arxiv.org/abs/2603.28088) | [GitHub](https://github.com/lcqysl/GEMS) [![Stars](https://img.shields.io/github/stars/lcqysl/GEMS?style=flat&label=stars)](https://github.com/lcqysl/GEMS/stargazers) | [Website](https://gems-gen.github.io/) | L1+L2+L3+L4 | Image, Editing | Trajectory memory and reusable skills | 2026-03 |
 | [SIDiffAgent](https://arxiv.org/abs/2602.02051) | - | - | L1+L3+L4 | Image | Self-improving generation behavior | 2026-02 |
 | [VISTA: A Test-Time Self-Improving Video Generation Agent](https://arxiv.org/abs/2510.15831) | - | [Website](https://g-vista.github.io/) | L1+L3+L4 | Video | Transferable test-time improvement | 2025-10 |
+
+
+### Additional papers screened from Awesome-Agentic-Gen
+
+| Paper | GitHub | Website | Path | Modality | Persistent adaptation | Date |
+| --- | :---: | :---: | :---: | :---: | --- | :---: |
+| [GenRouter: Unified Workflow Routing for Agentic Image Generation](https://arxiv.org/abs/2608.16721) | - | - | L1+L2+L3+L4 | Image | Cross-task memory or skill evolution | 2026-08 |
+| [AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design](https://arxiv.org/abs/2608.13560) | - | - | L1+L2+L3+L4 | Image | Cross-task memory or skill evolution | 2026-08 |
+| [SymbOmni: Evolving Agentic Omni Models via Symbolic Concept Learning](https://arxiv.org/abs/2607.12042) | - | - | L1+L2+L3+L4 | Image | Cross-task memory or skill evolution | 2026-07 |
+| [COMFYCLAW: Self-Evolving Skill Harnesses for Image Generation Workflows](https://arxiv.org/abs/2607.01709) | - | - | L1+L2+L3+L4 | Image | Cross-task memory or skill evolution | 2026-07 |
+| [ManimAgent: Self-Evolving Multimodal Agents for Visual Education](https://arxiv.org/abs/2606.30296) | - | - | L1+L2+L3+L4 | Image | Cross-task memory or skill evolution | 2026-06 |
+| [Self-Evolving Agentic Image Restoration via Deliberate Planning and Intuitive Execution](https://arxiv.org/abs/2606.28971) | - | - | L1+L2+L3+L4 | Image, Editing | Cross-task memory or skill evolution | 2026-06 |
+| [MemSlides: A Hierarchical Memory Driven Agent Framework for Personalized Slide Generation with Multi-turn Local Revision](https://arxiv.org/abs/2606.17162) | - | - | L1+L2+L3+L4 | Slide | Cross-task memory or skill evolution | 2026-06 |
+| [SimWorld Studio: Automatic Environment Generation with Evolving Coding Agent for Embodied Agent Learning](https://arxiv.org/abs/2605.09423) | - | - | L1+L2+L3+L4 | World | Cross-task memory or skill evolution | 2026-05 |
+| [EvoDiagram: Agentic Editable Diagram Creation via Design Expertise Evolution](https://arxiv.org/abs/2604.09568) | - | - | L1+L2+L3+L4 | Image, Editing | Cross-task memory or skill evolution | 2026-04 |
 
 [Back to top](#awesome-agentic-visual-generation)
 
@@ -388,6 +579,26 @@ L0 is an inclusion boundary, not an agent category. The following systems are im
 | [Video Diffusion Models](https://arxiv.org/abs/2204.03458) | - | [Website](https://video-diffusion.github.io/) | Video | Fixed conditional generator | 2022-04 |
 | [Latent Diffusion](https://arxiv.org/abs/2112.10752) | [GitHub](https://github.com/CompVis/latent-diffusion) [![Stars](https://img.shields.io/github/stars/CompVis/latent-diffusion?style=flat&label=stars)](https://github.com/CompVis/latent-diffusion/stargazers) | - | Image | Fixed conditional generator | 2021-12 |
 | [GLIDE](https://arxiv.org/abs/2112.10741) | [GitHub](https://github.com/openai/glide-text2im) [![Stars](https://img.shields.io/github/stars/openai/glide-text2im?style=flat&label=stars)](https://github.com/openai/glide-text2im/stargazers) | - | Image | Fixed conditional generator | 2021-12 |
+
+
+### Additional supporting resources screened from Awesome-Agentic-Gen
+
+| Supporting component | GitHub | Website | Modality | Why it is outside L1-L4 | Date |
+| --- | :---: | :---: | :---: | --- | :---: |
+| [VisEditBench: Can Vision-Language Models Edit Visualization Code from Multimodal Feedback?](https://arxiv.org/abs/2608.10408) | - | - | Image, Editing | Fixed training, data, benchmark, or evaluation procedure without inference-time generation control | 2026-08 |
+| [VideoArgus: Agentic Rubric-Grounded Unified Evaluation for Video Generation and Editing](https://arxiv.org/abs/2608.05485) | - | - | Video, Editing | Fixed training, data, benchmark, or evaluation procedure without inference-time generation control | 2026-08 |
+| [WorldCycle: Self-Verifiable Reinforcement Learning for Long-Horizon Video World Models](https://arxiv.org/abs/2608.04964) | - | - | Video | Fixed training, data, benchmark, or evaluation procedure without inference-time generation control | 2026-08 |
+| [DataEvolver: Self-Evolving Multi-Agent Data Construction for Text-Rich Image Generation](https://arxiv.org/abs/2606.31537) | - | - | Image | Fixed training, data, benchmark, or evaluation procedure without inference-time generation control | 2026-06 |
+| [Ask, Solve, Generate: Self-Evolving Unified Multimodal Understanding and Generation via Self-Consistency Rewards](https://arxiv.org/abs/2606.27376) | - | - | Image | Fixed training, data, benchmark, or evaluation procedure without inference-time generation control | 2026-06 |
+| [JAVEDIT: Joint Audio-Visual Instruction-Guided Video Editing with Agentic Data Curation](https://arxiv.org/abs/2606.03168) | - | - | Video, Editing | Fixed training, data, benchmark, or evaluation procedure without inference-time generation control | 2026-06 |
+| [3DCodeBench: Benchmarking Agentic Procedural 3D Modeling Via Code](https://arxiv.org/abs/2606.01057) | - | - | 3D | Fixed training, data, benchmark, or evaluation procedure without inference-time generation control | 2026-06 |
+| [DirectorBench: Diagnosing Long-Form Video Generation with Personalized Multi-Agent Evaluation](https://arxiv.org/abs/2605.30090) | - | - | Video | Fixed training, data, benchmark, or evaluation procedure without inference-time generation control | 2026-05 |
+| [AgenticVBench: Can AI Agents Complete Real-World Post-Production Tasks?](https://arxiv.org/abs/2605.27705) | - | - | World | Fixed training, data, benchmark, or evaluation procedure without inference-time generation control | 2026-05 |
+| [ScaleEdit-12M: Scaling Open-Source Image Editing Data Generation via Multi-Agent Framework](https://arxiv.org/abs/2603.20644) | - | - | Image, Editing | Fixed training, data, benchmark, or evaluation procedure without inference-time generation control | 2026-03 |
+| [DECKBench: Benchmarking Multi-Agent Frameworks for Academic Slide Generation and Editing](https://arxiv.org/abs/2602.13318) | - | - | Slide, Editing | Fixed training, data, benchmark, or evaluation procedure without inference-time generation control | 2026-02 |
+| [OSPO: Object-Centric Self-Improving Preference Optimization for Text-to-Image Generation](https://arxiv.org/abs/2506.02015) | - | - | Image | Fixed training, data, benchmark, or evaluation procedure without inference-time generation control | 2025-06 |
+| [ReasonGen-R1: CoT for Autoregressive Image generation models through SFT and RL](https://arxiv.org/abs/2505.24875) | - | - | Image | Fixed training, data, benchmark, or evaluation procedure without inference-time generation control | 2025-05 |
+| [T2I-R1: Reinforcing Image Generation with Collaborative Semantic-level and Token-level CoT](https://arxiv.org/abs/2505.00703) | - | - | Image | Fixed training, data, benchmark, or evaluation procedure without inference-time generation control | 2025-05 |
 
 [Back to top](#awesome-agentic-visual-generation)
 
