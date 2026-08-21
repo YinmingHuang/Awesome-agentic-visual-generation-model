@@ -3,7 +3,7 @@
 > Survey paper coming soon.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![WeChat Community](https://img.shields.io/badge/WeChat-Join_Community-07C160?logo=wechat&logoColor=white)](assets/8760479f6cf035d3467599a54bbe2c53.jpg)
+[![WeChat Community](https://img.shields.io/badge/WeChat-Join_Community-07C160?logo=wechat&logoColor=white)](assets/8c962330ddbefd8f2424afee5a5e4075.png)
 [![Discord Community](https://img.shields.io/badge/Discord-Join_Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/C53CkwJDF)
 
 **❤️ If you find our work useful, please consider giving a star ⭐ to this GitHub repository ❤️.**
@@ -606,12 +606,12 @@ L0 is an inclusion boundary, not an agent category. The following systems are im
 
 Welcome to join our community to discuss agentic visual generation:
 
-- [WeChat community](assets/8760479f6cf035d3467599a54bbe2c53.jpg) — open the QR code and scan it with WeChat.
+- [WeChat community](assets/8c962330ddbefd8f2424afee5a5e4075.png) — open the QR code and scan it with WeChat.
 - [Discord community](https://discord.gg/C53CkwJDF) — join the discussion on Discord.
 
 <p align="center">
-  <a href="assets/8760479f6cf035d3467599a54bbe2c53.jpg">
-    <img src="assets/8760479f6cf035d3467599a54bbe2c53.jpg" alt="WeChat community QR code" width="360">
+  <a href="assets/8c962330ddbefd8f2424afee5a5e4075.png">
+    <img src="assets/8c962330ddbefd8f2424afee5a5e4075.png" alt="WeChat community QR code" width="360">
   </a>
 </p>
 

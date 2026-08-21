@@ -9,3 +9,6 @@ skills/
 
 # Operating-system metadata
 .DS_Store
+
+# Local Xiaohongshu post images
+xiaohongshu*.png
