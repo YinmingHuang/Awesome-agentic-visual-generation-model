@@ -42,10 +42,6 @@ We classify a system by the highest controller capability demonstrated by the co
 - A paper appears once in L1-L4 according to its maximum demonstrated level. The `Path` column records the lower-level capabilities that it also contains.
 - Only fixed generators, stand-alone evaluators, reward models, and benchmarks are not generation controllers. They are listed separately.
 
-**Taxonomy audit (2026-08-23).** Every included paper was re-checked against the controller-capability definitions using its paper text. Training a planner with RL does not by itself imply L3 or L4: L3 requires an observed artifact, tool result, or rendered state to change the remaining execution path, while L4 requires completed trajectories to persistently alter decisions in later tasks. Modality tags describe the generated or edited artifact rather than every representation used internally.
-
-Official resources are listed in separate `GitHub` and `Website` columns. Public repositories include live GitHub Stars badges. A dash means that no author-maintained resource could be verified at the time of the latest update. Official datasets are linked from the `Website` column. Dates use the paper's first arXiv submission month (`YYYY-MM`); for non-arXiv reports, we use the public release month.
-
 ## Controller-capability taxonomy
 
 | Level | Controller capability | Main question | Typical controlled variables |
