@@ -12,6 +12,10 @@
   <img src="assets/x-launch-taxonomy.png" alt="Controller-capability taxonomy for agentic visual generation" width="850">
 </p>
 
+<p align="center">
+  <a href="assets/l0-l4-controller-authority-hierarchy.pdf">Download the L0-L4 controller-authority hierarchy figure (PDF)</a>
+</p>
+
 **Pull requests are very welcome! Please help us add new papers, official resources, or corrections.**
 
 A curated and taxonomy-driven collection of 313 systems that plan, execute, evaluate, revise, and improve visual generation. The repository covers image generation and editing, video generation and editing, slide and user-interface generation, 3D scene construction, and world models.
