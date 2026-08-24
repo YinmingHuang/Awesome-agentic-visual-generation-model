@@ -14,15 +14,16 @@
 
 **Pull requests are very welcome! Please help us add new papers, official resources, or corrections.**
 
-A curated and taxonomy-driven collection of papers on agents that plan, execute, evaluate, revise, and improve visual generation. The repository covers image generation and editing, video generation and editing, slide and user-interface generation, 3D scene construction, and world models.
+A curated and taxonomy-driven collection of 313 systems that plan, execute, evaluate, revise, and improve visual generation. The repository covers image generation and editing, video generation and editing, slide and user-interface generation, 3D scene construction, and world models.
 
-The primary organization follows the maximum control authority of the system. Modality and mechanism are secondary tags. This prevents tool use, multi-agent design, memory, or reinforcement learning from being treated as agenticity levels by themselves.
+The primary organization follows one rule: agenticity is determined by the deepest point in a generation trajectory at which the controller has causal authority over a future generation decision. Modality and mechanism are orthogonal tags. This prevents tool use, multi-agent design, memory, or reinforcement learning from being treated as agenticity levels by themselves.
 
 ## Contents
 
 - [Scope and inclusion rule](#scope-and-inclusion-rule)
 - [Controller-capability taxonomy](#controller-capability-taxonomy)
 - [Full classification standard](TAXONOMY.md)
+- [Structured corpus](data/README.md)
 - [Supporting Components: the L0 Boundary](#supporting-components-the-l0-boundary)
 - [L1: Conditioning Control](#l1-conditioning-control)
 - [L2: Execution Control](#l2-execution-control)

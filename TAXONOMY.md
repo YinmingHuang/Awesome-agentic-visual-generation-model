@@ -1,6 +1,6 @@
 # Final L0-L4 Controller-Capability Taxonomy
 
-This document is the normative classification standard for this repository and the accompanying survey. It classifies a complete system by the maximum **generation-level action authority** demonstrated by its controller, not by its number of modules, agents, tools, training losses, or pipeline stages.
+This document is the normative classification standard for this repository and the accompanying survey. **Agenticity in visual generation is determined by the deepest point in a generation trajectory at which a controller has causal authority over a future generation decision.** It classifies a complete system by this maximum temporal and causal reach, not by model size, output quality, the number of modules, roles, tools, training losses, or pipeline stages.
 
 ## Core principle
 
@@ -11,7 +11,9 @@ What is supplied? -> What visual operation is invoked? -> What follows an outcom
        L1                        L2                            L3                         L4
 ```
 
-L0 is the lower boundary. L1-L4 are assigned to complete systems. A paper is placed at the highest level for which the method provides concrete evidence; lower capabilities are recorded in its `Path`.
+L0 is the lower boundary. L1-L4 are assigned to complete systems. L1 authority reaches the specification, L2 reaches execution, L3 reaches a later action in the current trajectory, and L4 reaches future trajectories. A paper is placed at the highest level for which the method provides concrete evidence; lower capabilities are recorded in its `Path`.
+
+The full capability state can be written as `c(S) = (c1, c2, c3, c4)`, where each component records whether the corresponding authority is demonstrated. The primary level is the projection `L(S) = max{i : ci = 1}`. The hierarchy therefore preserves the maximum causal reach while `Path` retains the richer capability vector. A higher level is not a claim of greater complexity, performance, or practical value.
 
 ## L0: No Generation-Level Control
 

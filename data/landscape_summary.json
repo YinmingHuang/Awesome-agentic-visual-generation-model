@@ -1,0 +1,158 @@
+{
+  "record_count": 313,
+  "level_counts": {
+    "L1": 57,
+    "L2": 38,
+    "L3": 190,
+    "L4": 28
+  },
+  "half_year_by_level": {
+    "2022-H2": {
+      "L1": 1,
+      "L2": 0,
+      "L3": 0,
+      "L4": 0
+    },
+    "2023-H1": {
+      "L1": 2,
+      "L2": 2,
+      "L3": 1,
+      "L4": 0
+    },
+    "2023-H2": {
+      "L1": 2,
+      "L2": 0,
+      "L3": 1,
+      "L4": 0
+    },
+    "2024-H1": {
+      "L1": 3,
+      "L2": 1,
+      "L3": 4,
+      "L4": 2
+    },
+    "2024-H2": {
+      "L1": 3,
+      "L2": 2,
+      "L3": 6,
+      "L4": 0
+    },
+    "2025-H1": {
+      "L1": 9,
+      "L2": 7,
+      "L3": 21,
+      "L4": 0
+    },
+    "2025-H2": {
+      "L1": 10,
+      "L2": 4,
+      "L3": 29,
+      "L4": 2
+    },
+    "2026-H1": {
+      "L1": 23,
+      "L2": 18,
+      "L3": 90,
+      "L4": 18
+    },
+    "2026-H2": {
+      "L1": 4,
+      "L2": 4,
+      "L3": 38,
+      "L4": 6
+    }
+  },
+  "modality_by_level": {
+    "Image": {
+      "L1": 37,
+      "L2": 23,
+      "L3": 96,
+      "L4": 17
+    },
+    "Editing": {
+      "L1": 3,
+      "L2": 14,
+      "L3": 50,
+      "L4": 6
+    },
+    "Video": {
+      "L1": 16,
+      "L2": 8,
+      "L3": 45,
+      "L4": 6
+    },
+    "Slide": {
+      "L1": 2,
+      "L2": 2,
+      "L3": 10,
+      "L4": 1
+    },
+    "UI": {
+      "L1": 1,
+      "L2": 0,
+      "L3": 7,
+      "L4": 0
+    },
+    "3D": {
+      "L1": 2,
+      "L2": 5,
+      "L3": 31,
+      "L4": 3
+    },
+    "World": {
+      "L1": 3,
+      "L2": 4,
+      "L3": 13,
+      "L4": 2
+    }
+  },
+  "mechanism_by_level": {
+    "planning": {
+      "L1": 51,
+      "L2": 10,
+      "L3": 53,
+      "L4": 6
+    },
+    "retrieval": {
+      "L1": 10,
+      "L2": 5,
+      "L3": 26,
+      "L4": 1
+    },
+    "tool_use": {
+      "L1": 0,
+      "L2": 38,
+      "L3": 155,
+      "L4": 26
+    },
+    "multi_agent": {
+      "L1": 5,
+      "L2": 5,
+      "L3": 30,
+      "L4": 0
+    },
+    "verification": {
+      "L1": 3,
+      "L2": 0,
+      "L3": 190,
+      "L4": 28
+    },
+    "memory": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 3,
+      "L4": 28
+    },
+    "rl": {
+      "L1": 2,
+      "L2": 3,
+      "L3": 3,
+      "L4": 0
+    }
+  },
+  "notes": {
+    "modality_counts": "Multi-label counts; one system can contribute to several modality rows.",
+    "mechanism_counts": "Boolean tags derived from reviewed README taxonomy paths, section placement, titles, and primary-mechanism annotations.",
+    "scope": "Unique systems assigned to L1-L4; L0 supporting components and evaluation-only resources are excluded."
+  }
+}
