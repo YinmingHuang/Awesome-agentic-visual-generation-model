@@ -1,6 +1,6 @@
 # Structured Corpus
 
-The files in this directory provide the machine-readable L1-L4 corpus of 313 unique systems used by the survey.
+The files in this directory provide the machine-readable L0-L4 corpus of 313 unique reviewed records used by the survey.
 
 - `agentic_visual_generation_corpus.csv` and `.json` contain one row per unique system.
 - `landscape_summary.json` contains the counts used for the temporal, modality, and mechanism analyses.
@@ -12,4 +12,4 @@ Identity, date, level, capability path, modalities, primary mechanism, and offic
 
 Four normalized descriptors support comparison across heterogeneous papers. `controller_type` distinguishes a default language or multimodal controller, a multi-role controller, and a unified multimodal policy using conservative title and mechanism cues. `visual_executor` maps reviewed modality tags to the artifact-producing executor. `feedback` records the causal feedback boundary implied by the assigned level. `evaluation_type` states the minimum level-appropriate evaluation target. These normalized fields are generated interpretations, not substitutes for the original paper's implementation details.
 
-Modality annotations are multi-label. Consequently, a system can contribute to more than one row of a modality-by-level table. L0 supporting components and evaluation-only resources are excluded from these files.
+Modality annotations are multi-label. Consequently, a record can contribute to more than one row of a modality-by-level table. Four reviewed L0 boundary records are included; stand-alone evaluation resources and the additional background-component list are excluded.

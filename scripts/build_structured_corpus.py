@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the structured L1-L4 corpus and reproducible survey summaries.
+"""Build the structured L0-L4 corpus and reproducible survey summaries.
 
 README.md is the canonical source for paper identity, taxonomy placement,
 modality, mechanism, date, and official links. Boolean mechanism tags are
@@ -16,7 +16,7 @@ from collections import Counter
 from pathlib import Path
 
 
-LEVEL_RE = re.compile(r"^## L([1-4]):")
+LEVEL_RE = re.compile(r"^## L([0-4]):")
 LINK_RE = re.compile(r"\[([^]]+)\]\(([^)]+)\)")
 GITHUB_RE = re.compile(r"\[GitHub(?: \(announced\))?\]\((https://github\.com/[^)]+)\)")
 WEBSITE_RE = re.compile(r"\[(?:Website|Dataset|Code)\]\(([^)]+)\)")
@@ -86,12 +86,14 @@ def normalized_fields(row: dict[str, object], tags: dict[str, object]) -> dict[s
 
     level = str(row["primary_level"])
     feedback = {
+        "L0": "no deployed controller action demonstrated",
         "L1": "no outcome-conditioned action demonstrated",
         "L2": "execution result does not redirect the open-loop route",
         "L3": "current-outcome feedback changes a later action",
         "L4": "completed experience changes future-task control",
     }[level]
     evaluation_type = {
+        "L0": "component, data-pipeline, or terminal-artifact evaluation",
         "L1": "condition and terminal-artifact evaluation",
         "L2": "operation and terminal-artifact evaluation",
         "L3": "trajectory, repair, and terminal-artifact evaluation",
@@ -159,12 +161,12 @@ def parse_readme(path: Path) -> list[dict[str, object]]:
     names = [str(row["paper"]) for row in rows]
     duplicates = sorted(name for name, count in Counter(names).items() if count > 1)
     if duplicates:
-        raise ValueError(f"Duplicate L1-L4 records: {duplicates}")
+        raise ValueError(f"Duplicate L0-L4 records: {duplicates}")
     return rows
 
 
 def build_summary(rows: list[dict[str, object]]) -> dict[str, object]:
-    levels = ["L1", "L2", "L3", "L4"]
+    levels = ["L0", "L1", "L2", "L3", "L4"]
     periods = sorted({str(row["half_year"]) for row in rows})
     by_period = {
         period: {
@@ -196,7 +198,7 @@ def build_summary(rows: list[dict[str, object]]) -> dict[str, object]:
         "notes": {
             "modality_counts": "Multi-label counts; one system can contribute to several modality rows.",
             "mechanism_counts": "Boolean tags derived from reviewed README taxonomy paths, section placement, titles, and primary-mechanism annotations.",
-            "scope": "Unique systems assigned to L1-L4; L0 supporting components and evaluation-only resources are excluded.",
+            "scope": "Unique reviewed records assigned to L0-L4; stand-alone evaluation resources and additional background components are excluded.",
         },
     }
 
@@ -210,7 +212,7 @@ def write_csv(rows: list[dict[str, object]], path: Path) -> None:
     ]
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
         writer.writeheader()
         for row in rows:
             output = dict(row)
