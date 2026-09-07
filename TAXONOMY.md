@@ -1,6 +1,6 @@
 # Final L0-L4 Controller-Capability Taxonomy
 
-This document is the normative classification standard for this repository and the accompanying survey. **Agenticity in visual generation is determined by the deepest point in a generation trajectory at which a controller has causal authority over a future generation decision.** It classifies a complete system by this maximum temporal and causal reach, not by model size, output quality, the number of modules, roles, tools, training losses, or pipeline stages.
+This document is the normative classification standard for this repository and the accompanying paper. **Agenticity in visual generation is determined by the deepest point in a generation trajectory at which a controller can causally change a future generation decision.** It classifies a complete system by this maximum temporal and causal reach, not by model size, output quality, the number of modules, roles, tools, training losses, or pipeline stages.
 
 ## Core principle
 
@@ -11,11 +11,11 @@ What is supplied? -> What visual operation is invoked? -> What follows an outcom
        L1                        L2                            L3                         L4
 ```
 
-L0 is the lower boundary and is assigned to reviewed records that do not demonstrate deployed controller authority. L1 authority reaches the specification, L2 reaches execution, L3 reaches a later action in the current trajectory, and L4 reaches future trajectories. A paper is placed at the highest level for which the method provides concrete evidence; lower capabilities are recorded in its `Path`.
+L0 is the lower boundary and is assigned to reviewed records that do not demonstrate deployed controller decision-making. At L1, the decision-making scope reaches the specification; at L2, it reaches execution; at L3, it reaches a later action in the current trajectory; and at L4, it reaches future trajectories. A paper is placed at the highest level for which the method provides concrete evidence; lower capabilities are recorded in its `Path`.
 
-The full capability state can be written as `c(S) = (c1, c2, c3, c4)`, where each component records whether the corresponding authority is demonstrated. The primary level is the projection `L(S) = max{i : ci = 1}`. The hierarchy therefore preserves the maximum causal reach while `Path` retains the richer capability vector. A higher level is not a claim of greater complexity, performance, or practical value.
+The full capability state can be written as `c(S) = (c1, c2, c3, c4)`, where each component records whether the corresponding decision-making capability is demonstrated. The primary level is the projection `L(S) = max{i : ci = 1}`. The hierarchy therefore preserves the maximum causal reach while `Path` retains the richer capability vector. A higher level is not a claim of greater complexity, performance, or practical value.
 
-## L0: No Generation-Level Control
+## L0: Fixed Support
 
 **Definition.** The method generates, edits, retrieves, renders, evaluates, or optimizes under a fixed invocation rule. It does not contain a controller that chooses among materially different generation-level actions during inference.
 
@@ -31,7 +31,7 @@ The full capability state can be written as `c(S) = (c1, c2, c3, c4)`, where eac
 
 **What does not raise L1 to L2.** Complex reasoning, search, multiple planning roles, or an internal loop that only improves the condition. A hierarchy of planners can remain L1 if its final product is a specification handed to a fixed generator or renderer.
 
-**Decision test.** If the controller were replaced by a stored specification, would the same predetermined visual operation still be invoked? If yes, the demonstrated authority is L1.
+**Decision test.** If the controller were replaced by a stored specification, would the same predetermined visual operation still be invoked? If yes, the demonstrated decision-making scope is L1.
 
 ## L2: Execution Control
 
@@ -76,7 +76,7 @@ Apply the following tests from highest to lowest:
 ## Evidence policy
 
 - Classify the complete inference-time method, not an isolated module or a term in the title.
-- Use the highest capability explicitly implemented and evaluated in the paper. Do not infer authority from words such as “agentic,” “multi-agent,” “self-reflection,” “memory,” or “reinforcement learning.”
+- Use the highest capability explicitly implemented and evaluated in the paper. Do not infer decision-making scope from words such as “agentic,” “multi-agent,” “self-reflection,” “memory,” or “reinforcement learning.”
 - An implementation may contain lower-level capabilities without listing every one. The `Path` records only capabilities that are materially demonstrated.
 - When evidence is ambiguous, use the lower level and state the missing causal link needed for promotion.
 - Modality and mechanism are orthogonal tags. They never determine the level.
@@ -91,4 +91,4 @@ Apply the following tests from highest to lowest:
 
 ## Short citation-ready definition
 
-> L0 contains fixed supporting components without generation-level action selection. L1 controls the declarative conditions supplied to a predetermined visual executor. L2 controls which visual generation or artifact-mutating operations are invoked and how they are sequenced. L3 uses outcomes from the current trajectory to change later generation actions. L4 retains completed experience so that it changes control on future tasks.
+> L0 Fixed Support contains components without generation-level action selection. L1 controls the declarative conditions supplied to a predetermined visual executor. L2 controls which visual generation or artifact-mutating operations are invoked and how they are sequenced. L3 uses outcomes from the current trajectory to change later generation actions. L4 retains completed experience so that it changes control on future tasks.

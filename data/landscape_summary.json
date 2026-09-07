@@ -2,8 +2,8 @@
   "record_count": 313,
   "level_counts": {
     "L0": 4,
-    "L1": 48,
-    "L2": 34,
+    "L1": 49,
+    "L2": 33,
     "L3": 202,
     "L4": 25
   },
@@ -52,8 +52,8 @@
     },
     "2025-H2": {
       "L0": 1,
-      "L1": 8,
-      "L2": 4,
+      "L1": 9,
+      "L2": 3,
       "L3": 30,
       "L4": 2
     },
@@ -75,8 +75,8 @@
   "modality_by_level": {
     "Image": {
       "L0": 2,
-      "L1": 29,
-      "L2": 20,
+      "L1": 30,
+      "L2": 19,
       "L3": 107,
       "L4": 15
     },
@@ -126,7 +126,7 @@
   "mechanism_by_level": {
     "planning": {
       "L0": 2,
-      "L1": 41,
+      "L1": 42,
       "L2": 8,
       "L3": 60,
       "L4": 4
@@ -141,14 +141,14 @@
     "tool_use": {
       "L0": 0,
       "L1": 0,
-      "L2": 34,
+      "L2": 33,
       "L3": 159,
       "L4": 23
     },
     "multi_agent": {
       "L0": 0,
-      "L1": 5,
-      "L2": 7,
+      "L1": 6,
+      "L2": 6,
       "L3": 28,
       "L4": 0
     },
@@ -168,15 +168,39 @@
     },
     "rl": {
       "L0": 0,
-      "L1": 2,
-      "L2": 4,
+      "L1": 3,
+      "L2": 3,
       "L3": 2,
       "L4": 0
+    }
+  },
+  "controller_organization_by_level": {
+    "language or multimodal controller": {
+      "L0": 4,
+      "L1": 42,
+      "L2": 25,
+      "L3": 163,
+      "L4": 23
+    },
+    "multi-role language or multimodal controller": {
+      "L0": 0,
+      "L1": 6,
+      "L2": 6,
+      "L3": 28,
+      "L4": 0
+    },
+    "unified multimodal policy": {
+      "L0": 0,
+      "L1": 1,
+      "L2": 2,
+      "L3": 11,
+      "L4": 2
     }
   },
   "notes": {
     "modality_counts": "Multi-label counts; one system can contribute to several modality rows.",
     "mechanism_counts": "Boolean tags derived from reviewed README taxonomy paths, section placement, titles, and primary-mechanism annotations.",
+    "controller_organization_counts": "Mutually exclusive primary organization labels; each system contributes to exactly one row.",
     "scope": "Unique reviewed records assigned to L0-L4; stand-alone evaluation resources and additional background components are excluded."
   }
 }

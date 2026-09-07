@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the structured L0-L4 corpus and reproducible survey summaries.
+"""Build the structured L0-L4 corpus and reproducible paper summaries.
 
 README.md is the canonical source for paper identity, taxonomy placement,
 modality, mechanism, date, and official links. Boolean mechanism tags are
@@ -189,15 +189,32 @@ def build_summary(rows: list[dict[str, object]]) -> dict[str, object]:
         }
         for mechanism in MECHANISMS
     }
+    controller_organizations = [
+        "language or multimodal controller",
+        "multi-role language or multimodal controller",
+        "unified multimodal policy",
+    ]
+    by_controller_organization = {
+        organization: {
+            level: sum(
+                row["controller_type"] == organization and row["primary_level"] == level
+                for row in rows
+            )
+            for level in levels
+        }
+        for organization in controller_organizations
+    }
     return {
         "record_count": len(rows),
         "level_counts": {level: sum(row["primary_level"] == level for row in rows) for level in levels},
         "half_year_by_level": by_period,
         "modality_by_level": by_modality,
         "mechanism_by_level": by_mechanism,
+        "controller_organization_by_level": by_controller_organization,
         "notes": {
             "modality_counts": "Multi-label counts; one system can contribute to several modality rows.",
             "mechanism_counts": "Boolean tags derived from reviewed README taxonomy paths, section placement, titles, and primary-mechanism annotations.",
+            "controller_organization_counts": "Mutually exclusive primary organization labels; each system contributes to exactly one row.",
             "scope": "Unique reviewed records assigned to L0-L4; stand-alone evaluation resources and additional background components are excluded.",
         },
     }
