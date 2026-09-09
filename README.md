@@ -1,17 +1,17 @@
 # Awesome Agentic Visual Generation
 
-Yinming Huang^{1,2,*}, Shuyuan Tu^{1,*}, Xi Yan^{1,*}, Jiahao Zhan^{4}, Zihan Yang^{1}, Zhen Xing^{3}, Hui Zhang^{1}, Tiehua Zhang^{5}, Zuxuan Wu^{5,†}, Yu-Gang Jiang^{5,†}
-
-^{1}Fudan University  ^{2}Shanghai Innovative Institute  ^{3}Wan Team, Alibaba Tongyi Lab  ^{4}CUHK, MMLab  ^{5}School of Computer Science and Technology, Tongji University
-
-^{*}Equal contribution. ^{†}Corresponding authors. Yu-Gang Jiang is an IEEE Fellow.
-
-> 📄 [Agentic Visual Generation: From Generative Models to Agentic Control](https://arxiv.org/abs/2609.06758)
-
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![WeChat Community](https://img.shields.io/badge/WeChat-Join_Community-07C160?logo=wechat&logoColor=white)](assets/wechat_group.png)
 [![Discord Community](https://img.shields.io/badge/Discord-Join_Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/C53CkwJDF)
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.06758)
+
+[Agentic Visual Generation: From Generative Models to Agentic Control](https://arxiv.org/abs/2609.06758)
+<br/>
+Yinming Huang<sup>1,2,*</sup>, Shuyuan Tu<sup>1,*</sup>, Xi Yan<sup>1,*</sup>, Jiahao Zhan<sup>4</sup>, Zihan Yang<sup>1</sup>, Zhen Xing<sup>3</sup>, Hui Zhang<sup>1</sup>, Tiehua Zhang<sup>5</sup>, Yu-Gang Jiang<sup>1,†</sup>, Zuxuan Wu<sup>1,2,†</sup>
+<br/>
+[<sup>1</sup>Fudan University; <sup>2</sup>Shanghai Innovative Institute; <sup>3</sup>Wan Team, Alibaba Tongyi Lab; <sup>4</sup>CUHK, MMLab; <sup>5</sup>School of Computer Science and Technology, Tongji University]
+<br/>
+[<sup>*</sup>Equal contribution; <sup>†</sup>Corresponding authors; Yu-Gang Jiang is an IEEE Fellow]
 
 **❤️ If you find our work useful, please consider giving a star ⭐ to this GitHub repository ❤️.**
 
@@ -695,18 +695,12 @@ If you have any suggestions or find this repo helpful, feel free to contact us.
 
 Email: [yinminghuang1828@gmail.com](mailto:yinminghuang1828@gmail.com), [francisshuyuan@gmail.com](mailto:francisshuyuan@gmail.com).
 
-## Citation
-
-If you find this survey useful, please cite:
-
-```bibtex
-@misc{huang2026agenticvisualgenerationgenerative,
-      title={Agentic Visual Generation: From Generative Models to Agentic Control},
-      author={Yinming Huang and Shuyuan Tu and Xi Yan and Jiahao Zhan and Zihan Yang and Zhen Xing and Hui Zhang and Tiehua Zhang and Yu-Gang Jiang and Zuxuan Wu},
-      year={2026},
-      eprint={2609.06758},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2609.06758},
+If you find our work useful, <b>please consider giving a star ⭐ to this github repository and citing it ❤️</b>:
+```bib
+@article{huang2026agenticvisualgeneration,
+  title={Agentic Visual Generation: From Generative Models to Agentic Control},
+  author={Huang, Yinming and Tu, Shuyuan and Yan, Xi and Zhan, Jiahao and Yang, Zihan and Xing, Zhen and Zhang, Hui and Zhang, Tiehua and Jiang, Yu-Gang and Wu, Zuxuan},
+  journal={arXiv preprint arXiv:2609.06758},
+  year={2026}
 }
 ```
