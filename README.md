@@ -7,11 +7,11 @@
 
 [Agentic Visual Generation: From Generative Models to Agentic Control](https://arxiv.org/abs/2609.06758)
 <br/>
-Yinming Huang<sup>1,2,*</sup>, Shuyuan Tu<sup>1,*</sup>, Xi Yan<sup>1,*</sup>, Jiahao Zhan<sup>4</sup>, Zihan Yang<sup>1</sup>, Zhen Xing<sup>3</sup>, Hui Zhang<sup>1</sup>, Tiehua Zhang<sup>5</sup>, Yu-Gang Jiang<sup>1,†</sup>, Zuxuan Wu<sup>1,2,†</sup>
+Yinming Huang<sup>1,2,\*</sup>, Shuyuan Tu<sup>1,\*</sup>, Xi Yan<sup>1,\*</sup>, Jiahao Zhan<sup>4</sup>, Zihan Yang<sup>1</sup>, Zhen Xing<sup>3</sup>, Hui Zhang<sup>1</sup>, Tiehua Zhang<sup>5</sup>, Yu-Gang Jiang<sup>1,†</sup>, Zuxuan Wu<sup>1,2,†</sup>
 <br/>
 [<sup>1</sup>Fudan University; <sup>2</sup>Shanghai Innovative Institute; <sup>3</sup>Wan Team, Alibaba Tongyi Lab; <sup>4</sup>CUHK, MMLab; <sup>5</sup>School of Computer Science and Technology, Tongji University]
 <br/>
-[<sup>*</sup>Equal contribution; <sup>†</sup>Corresponding authors; Yu-Gang Jiang is an IEEE Fellow]
+[<sup>\*</sup>Equal contribution; <sup>†</sup>Corresponding authors]
 
 **❤️ If you find our work useful, please consider giving a star ⭐ to this GitHub repository ❤️.**
 
