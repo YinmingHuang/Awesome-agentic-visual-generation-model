@@ -7,11 +7,11 @@
 
 [Agentic Visual Generation: From Generative Models to Agentic Control](https://arxiv.org/abs/2609.06758)
 <br/>
-Yinming Huang<sup>1,2,\*</sup>, Shuyuan Tu<sup>1,\*</sup>, Xi Yan<sup>1,\*</sup>, Jiahao Zhan<sup>4</sup>, Zihan Yang<sup>1</sup>, Zhen Xing<sup>3</sup>, Hui Zhang<sup>1</sup>, Tiehua Zhang<sup>5</sup>, Yu-Gang Jiang<sup>1,†</sup>, Zuxuan Wu<sup>1,2,†</sup>
+[Yinming Huang](https://yinminghuang.github.io/)<sup>1,2,\*</sup>, [Shuyuan Tu](https://github.com/Francis-Rings)<sup>1,\*</sup>, Xi Yan<sup>1,\*</sup>, [Jiahao Zhan](https://scholar.google.com/citations?user=ICZu1WMAAAAJ&hl=en)<sup>4</sup>, [Zihan Yang](https://github.com/pnotp/ArcFlow)<sup>1</sup>, [Zhen Xing](https://chenhsing.github.io/)<sup>3</sup>, [Hui Zhang](https://huizhang0812.github.io/)<sup>1</sup>, [Tiehua Zhang](https://scholar.google.com/citations?user=kFrxPKUAAAAJ&hl=en)<sup>5</sup>, [Yu-Gang Jiang](https://scholar.google.com/citations?user=f3_FP8AAAAAJ&hl=en)<sup>1</sup>, [Zuxuan Wu](https://scholar.google.com/citations?user=7t12hVkAAAAJ&hl=en)<sup>1,2,†</sup>
 <br/>
 [<sup>1</sup>Fudan University; <sup>2</sup>Shanghai Innovative Institute; <sup>3</sup>Wan Team, Alibaba Tongyi Lab; <sup>4</sup>CUHK, MMLab; <sup>5</sup>School of Computer Science and Technology, Tongji University]
 <br/>
-[<sup>\*</sup>Equal contribution; <sup>†</sup>Corresponding authors]
+[<sup>\*</sup>Equal contribution; <sup>†</sup>Corresponding author]
 
 **❤️ If you find our work useful, please consider giving a star ⭐ to this GitHub repository ❤️.**
 
