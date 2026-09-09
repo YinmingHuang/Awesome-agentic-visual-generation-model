@@ -1,12 +1,17 @@
 # Awesome Agentic Visual Generation
 
-> 📄 [Agentic Visual Generation: From Generative Models to Agentic Control](paper/agentic-visual-generation.pdf)
+> 📄 [Agentic Visual Generation: From Generative Models to Agentic Control](https://arxiv.org/abs/2609.06758)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![WeChat Community](https://img.shields.io/badge/WeChat-Join_Community-07C160?logo=wechat&logoColor=white)](assets/8c962330ddbefd8f2424afee5a5e4075.png)
+[![WeChat Community](https://img.shields.io/badge/WeChat-Join_Community-07C160?logo=wechat&logoColor=white)](assets/wechat_group.png)
 [![Discord Community](https://img.shields.io/badge/Discord-Join_Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/C53CkwJDF)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.06758)
 
 **❤️ If you find our work useful, please consider giving a star ⭐ to this GitHub repository ❤️.**
+
+## News
+
+  * `[2026-09-09]`: 🔥 The paper is now available on [arXiv](https://arxiv.org/abs/2609.06758).
 
 <p align="center">
   <img src="assets/paper/fig1-controller-decision-scope.png" alt="L0-L4 controller decision-making scope for agentic visual generation" width="900">
@@ -15,7 +20,7 @@
 <p align="center">
   <em>Figure 1. Visual overview of controller decision-making scope.</em><br>
   <a href="assets/paper/fig1-controller-decision-scope.pdf">Vector PDF</a> ·
-  <a href="paper/agentic-visual-generation.pdf">Full paper</a>
+  <a href="https://arxiv.org/abs/2609.06758">arXiv paper</a>
 </p>
 
 **Pull requests are very welcome! Please help us add new papers, official resources, or corrections.**
@@ -26,7 +31,7 @@ The primary organization follows one rule: agenticity is determined by the deepe
 
 ## Contents
 
-- [Paper PDF](paper/agentic-visual-generation.pdf)
+- [Paper on arXiv](https://arxiv.org/abs/2609.06758)
 - [Scope and inclusion rule](#scope-and-inclusion-rule)
 - [Controller-capability taxonomy](#controller-capability-taxonomy)
 - [Full classification standard](TAXONOMY.md)
@@ -669,12 +674,12 @@ L0 is an inclusion boundary, not an agent category. The following systems are im
 
 Welcome to join our community to discuss agentic visual generation:
 
-- [WeChat community](assets/8c962330ddbefd8f2424afee5a5e4075.png) — open the QR code and scan it with WeChat.
+- [WeChat community](assets/wechat_group.png) — open the QR code and scan it with WeChat.
 - [Discord community](https://discord.gg/C53CkwJDF) — join the discussion on Discord.
 
 <p align="center">
-  <a href="assets/8c962330ddbefd8f2424afee5a5e4075.png">
-    <img src="assets/8c962330ddbefd8f2424afee5a5e4075.png" alt="WeChat community QR code" width="360">
+  <a href="assets/wechat_group.png">
+    <img src="assets/wechat_group.png" alt="WeChat community QR code" width="360">
   </a>
 </p>
 
