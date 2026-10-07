@@ -158,6 +158,7 @@ L1 controllers construct the generator-facing specification before execution. Th
 | [LLM Blueprint](https://arxiv.org/abs/2310.10640) | [GitHub](https://github.com/hananshafi/llmblueprint) [![Stars](https://img.shields.io/github/stars/hananshafi/llmblueprint?style=flat&label=stars)](https://github.com/hananshafi/llmblueprint/stargazers) | - | L1 | Image | Structured scene description | 2023-10 |
 | [LayoutGPT](https://arxiv.org/abs/2305.15393) | [GitHub](https://github.com/UCSB-AI/LayoutGPT) [![Stars](https://img.shields.io/github/stars/UCSB-AI/LayoutGPT?style=flat&label=stars)](https://github.com/UCSB-AI/LayoutGPT/stargazers) | [Website](https://layoutgpt.github.io/) | L1 | Image, 3D | Layout planning | 2023-05 |
 | [LLM-grounded Diffusion](https://arxiv.org/abs/2305.13655) | [GitHub](https://github.com/TonyLianLong/LLM-groundedDiffusion) [![Stars](https://img.shields.io/github/stars/TonyLianLong/LLM-groundedDiffusion?style=flat&label=stars)](https://github.com/TonyLianLong/LLM-groundedDiffusion/stargazers) | [Website](https://llm-grounded-diffusion.github.io/) | L1 | Image | Bounding-box planning | 2023-05 |
+| [Fysiverse-3D-SimReady Technical Report: Agentic Physical Simulation for Pragmatic 3D World Reconstruction](https://arxiv.org/abs/2609.31715) | - | - | L1 | 3D, World | Agent-written physical simulation plan for a fixed scene-reconstruction runner | 2026-09 |
 
 ### Retrieved Evidence Specifications
 
@@ -226,6 +227,7 @@ L2 controllers select and invoke actual visual operations before observing their
 | [ComfyUI-R1: Exploring Reasoning Models for Workflow Generation](https://arxiv.org/abs/2506.09790) | [GitHub](https://github.com/AIDC-AI/ComfyUI-Copilot) [![Stars](https://img.shields.io/github/stars/AIDC-AI/ComfyUI-Copilot?style=flat&label=stars)](https://github.com/AIDC-AI/ComfyUI-Copilot/stargazers) | - | L1+L2 | Image | Tool and workflow orchestration | 2025-06 |
 | [Policy Optimized Text-to-Image Pipeline Design](https://arxiv.org/abs/2505.21478) | - | - | L1+L2 | Image | Generator and processing-block selection | 2025-05 |
 | [Visual ChatGPT](https://arxiv.org/abs/2303.04671) | [GitHub](https://github.com/microsoft/visual-chatgpt) [![Stars](https://img.shields.io/github/stars/microsoft/visual-chatgpt?style=flat&label=stars)](https://github.com/microsoft/visual-chatgpt/stargazers) | - | L1+L2 | Image, Editing | Visual foundation model orchestration | 2023-03 |
+| [WeAgent-MMGenEdit: A Full-Stack Recipe for Multimodal Agentic Image Generation and Editing](https://arxiv.org/abs/2609.05171) | - | - | L1+L2 | Image, Editing | Evidence-tool orchestration and code execution before final image generation | 2026-09 |
 
 ### Image and Structured-Graphic Operations
 
@@ -254,6 +256,7 @@ L2 controllers select and invoke actual visual operations before observing their
 | [StoryAgent](https://arxiv.org/abs/2411.04925) | - | - | L1+L2 | Image, Video | Storyboard and character workflow | 2024-11 |
 | [DreamFactory](https://arxiv.org/abs/2408.11788) | - | - | L1+L2 | Video | Multi-scene workflow | 2024-08 |
 | [Mora](https://arxiv.org/abs/2403.13248) | [GitHub](https://github.com/lichao-sun/Mora) [![Stars](https://img.shields.io/github/stars/lichao-sun/Mora?style=flat&label=stars)](https://github.com/lichao-sun/Mora/stargazers) | - | L1+L2 | Video | Multi-agent video modules | 2024-03 |
+| [Unified Agentic Video Editing Across Levels of Complexity and Creativity](https://arxiv.org/abs/2609.12769) | - | - | L1+L2 | Video, Editing | Agent-selected editing operations for complex trailer construction | 2026-09 |
 
 ### Document and Interface Operations
 
@@ -271,6 +274,7 @@ L2 controllers select and invoke actual visual operations before observing their
 | [AutoUE: Automated Generation of 3D Games in Unreal Engine via Multi-Agent Systems](https://arxiv.org/abs/2603.07106) | [GitHub](https://github.com/Pluto156/AutoUE) [![Stars](https://img.shields.io/github/stars/Pluto156/AutoUE?style=flat&label=stars)](https://github.com/Pluto156/AutoUE/stargazers) | - | L1+L2 | 3D | Tool and workflow orchestration | 2026-03 |
 | [Vinedresser3D: Agentic Text-guided 3D Editing](https://arxiv.org/abs/2602.19542) | - | - | L1+L2 | 3D, Editing | View selection and 3D editing orchestration | 2026-02 |
 | [3D Space as a Scratchpad for Editable Text-to-Image Generation](https://arxiv.org/abs/2601.14602) | - | [Website](https://oindrilasaha.github.io/3DScratchpad/) | L1+L2 | 3D, Editing | 3D scratchpad tool orchestration | 2026-01 |
+| [Programmable World Model](https://arxiv.org/abs/2609.10540) | [GitHub](https://github.com/AlayaLab/pwm)[![Stars](https://img.shields.io/github/stars/AlayaLab/pwm?style=flat&label=stars)](https://github.com/AlayaLab/pwm/stargazers) | [Website](https://alaya-lab.github.io/pwm) | L1+L2 | Video, World | Agent-authored executable world program that mutates generated scene state | 2026-09 |
 
 [Back to top](#awesome-agentic-visual-generation)
 
@@ -425,6 +429,15 @@ L3 controllers use an observed result to change a later generation action within
 | [RPG: Recaptioning, Planning, and Generating with Multimodal LLMs](https://arxiv.org/abs/2401.11708) | [GitHub](https://github.com/YangLing0818/RPG-DiffusionMaster) [![Stars](https://img.shields.io/github/stars/YangLing0818/RPG-DiffusionMaster?style=flat&label=stars)](https://github.com/YangLing0818/RPG-DiffusionMaster/stargazers) | - | L1+L3 | Image | Optional rendered-image self-refinement | 2024-01 |
 | [CompAgent](https://arxiv.org/abs/2401.15688) | - | - | L1+L3 | Image | Visual-feedback correction | 2024-01 |
 | [Self-correcting LLM-controlled Diffusion Models](https://arxiv.org/abs/2311.16090) | [GitHub](https://github.com/tsunghan-wu/SLD) [![Stars](https://img.shields.io/github/stars/tsunghan-wu/SLD?style=flat&label=stars)](https://github.com/tsunghan-wu/SLD/stargazers) | [Website](https://self-correcting-llm-diffusion.github.io/) | L1+L3 | Image | Requirement inspection and repair | 2023-11 |
+| [EORestore-Agent: Fidelity-Guided Agentic Restoration of Remote Sensing Images with Composite Degradations](https://arxiv.org/abs/2610.06196) | - | - | L1+L2+L3 | Image, Editing | Residual-degradation inspection selects further restoration or stopping | 2026-10 |
+| [VTR-Bench: A Systematic Benchmark for Evaluating Visual Text Rendering in Video Generation](https://arxiv.org/abs/2610.01499) | [GitHub](https://github.com/hardenyu21/VTR-Bench) [![Stars](https://img.shields.io/github/stars/hardenyu21/VTR-Bench?style=flat&label=stars)](https://github.com/hardenyu21/VTR-Bench/stargazers) | - | L1+L2+L3 | Image, Video | Keyframe-guided agent switches image creation and editing before video synthesis using visual feedback | 2026-10 |
+| [Complementary Retrieval-Augmented Prompting for Consistent Long-Form Video Generation](https://arxiv.org/abs/2609.37407) | - | - | L1+L3 | Video | Generated-frame evidence changes reference retrieval and prompts for later shots | 2026-09 |
+| [AutoRef: Harness Optimization for Agentic Multi-Reference Image Generation](https://arxiv.org/abs/2609.35530) | [GitHub](https://github.com/KuOnoda/AutoRef) [![Stars](https://img.shields.io/github/stars/KuOnoda/AutoRef?style=flat&label=stars)](https://github.com/KuOnoda/AutoRef/stargazers) | - | L1+L3 | Image | Critic findings on generated drafts trigger reference-aware prompt repair | 2026-09 |
+| [StoryEngine: A State-Grounded Agentic Framework for Video Storytelling](https://arxiv.org/abs/2609.33627) | - | - | L1+L3 | Video | Shot evaluation updates story state and triggers targeted regeneration | 2026-09 |
+| [MVAgent: Multi-Agent Video Generation via Consistent Condition Construction and Shot-Level Policy Optimization](https://arxiv.org/abs/2609.30609) | - | - | L1+L3 | Video | Generated-shot feedback updates later shot specifications and retry decisions | 2026-09 |
+| [VideoGen-Agent: Reinforcing Video Generation Agents](https://arxiv.org/abs/2609.24997) | - | - | L1+L2+L3 | Video | Verification of generated video guides subsequent tool and generation actions | 2026-09 |
+| [DramaAgent: Agentic Storytelling Video Generation](https://arxiv.org/abs/2610.00097) | [GitHub](https://github.com/AIGeeksGroup/DramaAgent) [![Stars](https://img.shields.io/github/stars/AIGeeksGroup/DramaAgent?style=flat&label=stars)](https://github.com/AIGeeksGroup/DramaAgent/stargazers) | [Website](https://aigeeksgroup.github.io/DramaAgent) | L1+L2+L3 | Video | Shot-level visual critique prompts selective repair with video generation tools | 2026-09 |
+| [Editable Visual Design](https://arxiv.org/abs/2609.04034) | - | - | L1+L2+L3 | Image, Editing | Render-inspect-revise loop for layered HTML/CSS visual designs | 2026-09 |
 
 ### Structured and Execution Feedback
 
@@ -472,6 +485,13 @@ L3 controllers use an observed result to change a later generation action within
 | [LayerCraft](https://arxiv.org/abs/2504.00010) | [GitHub](https://github.com/PeterYYZhang/LayerCraft) [![Stars](https://img.shields.io/github/stars/PeterYYZhang/LayerCraft?style=flat&label=stars)](https://github.com/PeterYYZhang/LayerCraft/stargazers) | - | L1+L3 | Image | Layered integration and revision | 2025-04 |
 | [FilmAgent](https://arxiv.org/abs/2501.12909) | [GitHub](https://github.com/HITsz-TMG/FilmAgent) [![Stars](https://img.shields.io/github/stars/HITsz-TMG/FilmAgent?style=flat&label=stars)](https://github.com/HITsz-TMG/FilmAgent/stargazers) | [Website](https://filmagent.github.io/) | L1+L2+L3 | Video, 3D | Director feedback and script revision | 2025-01 |
 | [LAVE](https://arxiv.org/abs/2402.10294) | - | [Website](https://www.dgp.toronto.edu/~bryanw/lave/) | L1+L2+L3 | Video, Editing | Timeline state and user revision | 2024-02 |
+| [One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline](https://arxiv.org/abs/2610.06852) | - | [Website](https://onefigureeverycanvas.vercel.app/) | L1+L2+L3 | Image, Editing | Visual and structural checks repair editable draw.io flowcharts | 2026-10 |
+| [Code2Games: Enabling Coding Agents for Gaming World Generation](https://arxiv.org/abs/2610.05033) | [GitHub](https://github.com/AIGeeksGroup/Code2Games) [![Stars](https://img.shields.io/github/stars/AIGeeksGroup/Code2Games?style=flat&label=stars)](https://github.com/AIGeeksGroup/Code2Games/stargazers) | [Website](https://aigeeksgroup.github.io/Code2Games) | L1+L2+L3 | 3D, World | Unreal compile, runtime, and gameplay feedback drive scene-code repair | 2026-10 |
+| [MeshQuery: Agentic Seam Planning for UV Parametrization](https://arxiv.org/abs/2610.02507) | - | - | L1+L2+L3 | 3D, Editing | UV-atlas feedback revises executable seam-planning programs | 2026-10 |
+| [LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction](https://arxiv.org/abs/2610.01863) | [GitHub](https://github.com/LiteReality/LiteReality-Agent) [![Stars](https://img.shields.io/github/stars/LiteReality/LiteReality-Agent?style=flat&label=stars)](https://github.com/LiteReality/LiteReality-Agent/stargazers) | [Website](https://litereality.github.io/agent/) | L1+L2+L3 | 3D | Rendered and geometric checks guide revisions to executable room scenes | 2026-10 |
+| [SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution](https://arxiv.org/abs/2609.05594) | [GitHub](https://github.com/rxjfighting/SceneMosaic) [![Stars](https://img.shields.io/github/stars/rxjfighting/SceneMosaic?style=flat&label=stars)](https://github.com/rxjfighting/SceneMosaic/stargazers) | - | L1+L2+L3 | 3D | Scene critics and simulator evidence drive local layout evolution | 2026-09 |
+| [SlideLab: Audience-Centered Scientific Slide Generation and Evaluation](https://arxiv.org/abs/2609.30294) | - | - | L1+L2+L3 | Slide | Rendered-slide layout diagnostics trigger HTML slide correction | 2026-09 |
+| [SLIDEFORGE: An LLM Agent for Controllable Editing of Slides as Structured Artifacts](https://arxiv.org/abs/2609.03109) | [GitHub](https://github.com/UIUC-MONET/SLIDEFORGE) [![Stars](https://img.shields.io/github/stars/UIUC-MONET/SLIDEFORGE?style=flat&label=stars)](https://github.com/UIUC-MONET/SLIDEFORGE/stargazers) | - | L1+L2+L3 | Slide, Editing | Native slide edits followed by rendered-state inspection and repair | 2026-09 |
 
 ### Physical and Constraint Feedback
 
@@ -489,6 +509,10 @@ L3 controllers use an observed result to change a later generation action within
 | [World Craft: Agentic Framework to Create Visualizable Worlds via Text](https://arxiv.org/abs/2601.09150) | - | - | L1+L2+L3 | World | Constraint-checked world-layout correction | 2026-01 |
 | [MoReGen](https://arxiv.org/abs/2512.04221) | - | - | L1+L2+L3 | Video, 3D | Simulator code and physical checking | 2025-12 |
 | [VideoAgent](https://arxiv.org/abs/2410.10076) | [GitHub](https://github.com/video-as-agent/videoagent) [![Stars](https://img.shields.io/github/stars/video-as-agent/videoagent?style=flat&label=stars)](https://github.com/video-as-agent/videoagent/stargazers) | [Website](https://video-as-agent.github.io/) | L1+L3 | Video | Environment-feedback planning | 2024-10 |
+| [CoDimRecon: Agentic Reconstruction of Sim-Ready 3D Scenes with Deformable Curves, Surfaces, and Volumes](https://arxiv.org/abs/2609.36024) | - | - | L1+L2+L3 | 3D | Behavioral tests revise scene geometry, materials, and motion | 2026-09 |
+| [WorldAgent: Verification-Guided Agentic Physical World Construction](https://arxiv.org/abs/2609.33208) | - | - | L1+L2+L3 | 3D, World | Physical-world verification revises scene specifications and affected steps | 2026-09 |
+| [GameDirector: Decoupling Gameplay Logic from Rendering for Player-Configurable Game World Models](https://arxiv.org/abs/2609.25652) | - | - | L1+L3 | Video, World | Gameplay-video observations update world state and later rendering prompts | 2026-09 |
+| [GIF: Agentic Generation of Interactive and Functional Object Compositions for Robot Learning](https://arxiv.org/abs/2609.05927) | - | - | L1+L2+L3 | Image, 3D | Scene-verifier feedback triggers image redraw and object-pose repair | 2026-09 |
 
 ### Human Review Feedback
 
@@ -523,6 +547,7 @@ L4 controllers retain completed-task experience that changes decisions on later 
 | [Action Agent: Agentic Video Generation Meets Flow-Constrained Diffusion](https://arxiv.org/abs/2605.01477) | - | - | L1+L2+L3+L4 | Video | Cross-task navigation-generation memory | 2026-05 |
 | [BrandFusion](https://arxiv.org/abs/2603.02816) | - | [Website](https://zihao-ai.github.io/brandfusion/) | L1+L2+L4 | Video | User-feedback experience pool for later brand-integration strategies | 2026-03 |
 | [UniVA](https://arxiv.org/abs/2511.08521) | [GitHub](https://github.com/univa-agent/univa) [![Stars](https://img.shields.io/github/stars/univa-agent/univa?style=flat&label=stars)](https://github.com/univa-agent/univa/stargazers) | [Website](https://univa.online/) | L1+L2+L3+L4 | Video | Persistent trajectory and user-preference memory for later workflows | 2025-11 |
+| [TemplateCraft: Agentic Visual Template Generation](https://arxiv.org/abs/2609.31451) | - | - | L1+L2+L3+L4 | Image, Video | Completed-task errors and revision traces are retained for future template workflows | 2026-09 |
 
 ### Reusable Procedures and Skills
 
@@ -534,6 +559,7 @@ L4 controllers retain completed-task experience that changes decisions on later 
 | [SimWorld Studio: Automatic Environment Generation with Evolving Coding Agent for Embodied Agent Learning](https://arxiv.org/abs/2605.09423) | - | - | L1+L2+L3+L4 | World | Cross-task memory or skill evolution | 2026-05 |
 | [EvoDiagram: Agentic Editable Diagram Creation via Design Expertise Evolution](https://arxiv.org/abs/2604.09568) | - | - | L1+L2+L3+L4 | Image, Editing | Cross-task memory or skill evolution | 2026-04 |
 | [SceneCraft](https://arxiv.org/abs/2403.01248) | - | - | L1+L2+L3+L4 | 3D | Cross-query spatial skill library | 2024-03 |
+| [SkillIR: Evolving Scene-Aware Skills for Agentic Image Restoration](https://arxiv.org/abs/2609.21468) | - | - | L1+L2+L3+L4 | Image, Editing | Successful restoration trajectories update reusable skills across images | 2026-09 |
 
 ### Executable Workflows and Harnesses
 
@@ -587,6 +613,10 @@ These resources evaluate outputs, trajectories, controllers, or supporting signa
 | [MSVE-Bench and NB-Q](https://arxiv.org/abs/2605.26525) | [GitHub (announced)](https://github.com/ali-vilab/ReCA) | [Website](https://reca.vmv.re/) | 3–5 minute multi-shot video extrapolation | Benchmark and source-grounded protocol | 2026-05 |
 | [SynthSeg-Agents](https://arxiv.org/abs/2512.15310) | - | - | Synthetic data for segmentation | Downstream task evaluation | 2025-12 |
 | [UniVA-Bench](https://arxiv.org/abs/2511.08521) | [GitHub](https://github.com/univa-agent/univa) [![Stars](https://img.shields.io/github/stars/univa-agent/univa?style=flat&label=stars)](https://github.com/univa-agent/univa/stargazers) | [Website](https://univa.online/) | Multi-step video workflows | Agent benchmark | 2025-11 |
+| [EditHero: A Benchmark for Long-Horizon Part-Level 3D Editing and Vibe Modeling](https://arxiv.org/abs/2610.02298) | [GitHub](https://github.com/AlayaLab/EditHero) [![Stars](https://img.shields.io/github/stars/AlayaLab/EditHero?style=flat&label=stars)](https://github.com/AlayaLab/EditHero/stargazers) | [Website](https://alaya-lab.github.io/EditHero/) | Multi-turn part-level 3D editing | Agent benchmark | 2026-10 |
+| [World Editing: Intervening on Executable Worlds at Increasing Depth](https://arxiv.org/abs/2610.02331) | - | - | Executable game-world editing | Agent benchmark | 2026-10 |
+| [Code4Scene: Benchmarking Coding Agents for Constructing and Editing 3D Scenes](https://arxiv.org/abs/2609.36777) | - | - | Unreal scene construction and editing | Agent benchmark | 2026-09 |
+| [Timeline-Bench: Evaluating Agents on Realistic Video-Editing Tasks, from Raw Footage to Final Cut](https://arxiv.org/abs/2609.35143) | - | [Website](https://timelinebench.tensortest.com/) | Real-world timeline-based video editing | Agent benchmark | 2026-09 |
 
 ### Output benchmarks and evaluators
 
