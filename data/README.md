@@ -1,6 +1,6 @@
 # Structured Corpus
 
-The files in this directory provide the machine-readable L0-L4 corpus of 313 unique reviewed records used by the paper.
+The files in this directory provide the machine-readable L0-L4 corpus of 340 unique reviewed records in the current catalog. This living corpus includes additions made after the published paper; the paper and its figures retain their publication-time counts.
 
 - `agentic_visual_generation_corpus.csv` and `.json` contain one row per unique system.
 - `landscape_summary.json` contains the counts used for the temporal, modality, and mechanism analyses.

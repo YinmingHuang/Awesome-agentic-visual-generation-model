@@ -31,7 +31,7 @@
 
 **Pull requests are very welcome! Please help us add new papers, official resources, or corrections.**
 
-A curated and taxonomy-driven collection of 313 reviewed records spanning the L0 boundary and four controller-capability levels. The repository covers image generation and editing, video generation and editing, slide and user-interface generation, 3D scene construction, and world models.
+A curated and taxonomy-driven collection of 340 reviewed records spanning the L0 boundary and four controller-capability levels. The repository covers image generation and editing, video generation and editing, slide and user-interface generation, 3D scene construction, and world models.
 
 The primary organization follows one rule: agenticity is determined by the deepest point in a generation trajectory at which the controller can causally change a future generation decision. Modality and mechanism are orthogonal tags. This prevents tool use, multi-agent design, memory, or reinforcement learning from being treated as agenticity levels by themselves.
 
@@ -308,6 +308,7 @@ L3 controllers use an observed result to change a later generation action within
 | [FilmWorld: Agentic Novel-to-Film Generation through Dynamic Cinematic World Modeling](https://arxiv.org/abs/2607.19038) | [GitHub](https://github.com/zplusdragon/FilmWorld) [![Stars](https://img.shields.io/github/stars/zplusdragon/FilmWorld?style=flat&label=stars)](https://github.com/zplusdragon/FilmWorld/stargazers) | [Website](https://filmworld-ai.github.io/) | L1+L2+L3 | Video | Outcome-aware verification and revision | 2026-07 |
 | [PhysAgent: Reflective Agentic Physics Control for Physically Plausible Video Generation](https://arxiv.org/abs/2607.16355) | [GitHub](https://github.com/IApple233/PhysAgent) [![Stars](https://img.shields.io/github/stars/IApple233/PhysAgent?style=flat&label=stars)](https://github.com/IApple233/PhysAgent/stargazers) | [Website](https://iapple233.github.io/PhysAgent) | L1+L2+L3 | Video | Outcome-aware verification and revision | 2026-07 |
 | [Exploring Agentic Workflows for Generating High Quality Math Visual Aids](https://arxiv.org/abs/2607.09839) | - | - | L1+L2+L3 | Image | VLM-reviewed visual-aid refinement | 2026-07 |
+| [SPIRE: Personalization as Inverse Planning: Learning Latent Design Intents for Agentic Slide Generation via Structural Denoising](https://arxiv.org/abs/2607.00407) | - | - | L1+L2+L3 | Slide | RL-trained multi-agent critic feedback on rendered slides revises reference-conditioned design plans | 2026-07 |
 | [RS-Gen: A Multi-Stage Agentic Framework for Reasoning and Search-Augmented Image Generation](https://arxiv.org/abs/2606.23221) | - | - | L1+L2+L3 | Image | Adaptive routing and generate-verify-correct loop | 2026-06 |
 | [MetaPoint](https://arxiv.org/abs/2606.05031) | - | - | L1+L3 | Image | Generate-reflect-execute spatial correction | 2026-06 |
 | [Qwen-Image-Agent](https://arxiv.org/abs/2606.26907) | - | - | L1+L2+L3 | Image, World | Search, memory, editing, and feedback | 2026-06 |
