@@ -31,7 +31,7 @@
 
 **Pull requests are very welcome! Please help us add new papers, official resources, or corrections.**
 
-A curated and taxonomy-driven collection of 362 reviewed records spanning the L0 boundary and four controller-capability levels. The repository covers image generation and editing, video generation and editing, slide and user-interface generation, 3D scene construction, and world models.
+A curated and taxonomy-driven collection of 388 reviewed records spanning the L0 boundary and four controller-capability levels. The repository covers image generation and editing, video generation and editing, slide and user-interface generation, 3D scene construction, and world models.
 
 The primary organization follows one rule: agenticity is determined by the deepest point in a generation trajectory at which the controller can causally change a future generation decision. Modality and mechanism are orthogonal tags. This prevents tool use, multi-agent design, memory, or reinforcement learning from being treated as agenticity levels by themselves.
 
@@ -115,6 +115,7 @@ Foundational generators, editors, and fixed retrievers are cataloged under [Supp
 | --- | :---: | :---: | :---: | :---: | --- | :---: |
 | [AgentComp](https://arxiv.org/abs/2512.09081) | - | - | L0 | Image | Agentic preference-data construction for a fixed generator | 2025-12 |
 | [Gen-n-Val: Agentic Image Data Generation and Validation](https://arxiv.org/abs/2506.04676) | [GitHub](https://github.com/aiiu-lab/Gen-n-Val) [![Stars](https://img.shields.io/github/stars/aiiu-lab/Gen-n-Val?style=flat&label=stars)](https://github.com/aiiu-lab/Gen-n-Val/stargazers) | - | L0 | Image | Synthetic-data generation and validation pipeline | 2025-06 |
+| [APT: Feedback-Driven Agentic Post-Training for Text-to-Image Generation](https://arxiv.org/abs/2610.18097) | - | - | L0 | Image | Evaluation-diagnosed adaptive training-data construction and generator post-training | 2026-10 |
 
 ### Evaluators and Benchmarks
 
@@ -172,6 +173,7 @@ L1 controllers construct the generator-facing specification before execution. Th
 | [Cross-modal RAG](https://arxiv.org/abs/2505.21956) | [GitHub](https://github.com/mengdanzhu/Cross-modal-RAG) [![Stars](https://img.shields.io/github/stars/mengdanzhu/Cross-modal-RAG?style=flat&label=stars)](https://github.com/mengdanzhu/Cross-modal-RAG/stargazers) | - | L1 | Image | Sub-dimensional retrieval | 2025-05 |
 | [RealRAG](https://arxiv.org/abs/2502.00848) | [GitHub](https://github.com/charles-xjy/realrag) [![Stars](https://img.shields.io/github/stars/charles-xjy/realrag?style=flat&label=stars)](https://github.com/charles-xjy/realrag/stargazers) | - | L1 | Image | Self-reflective retrieval training | 2025-02 |
 | [When Cultures Meet: Multicultural Text-to-Image Generation](https://arxiv.org/abs/2502.15972) | [GitHub](https://github.com/AIM-SCU/WhenCulturesMeet) [![Stars](https://img.shields.io/github/stars/AIM-SCU/WhenCulturesMeet?style=flat&label=stars)](https://github.com/AIM-SCU/WhenCulturesMeet/stargazers) | - | L1 | Image | Condition construction and planning | 2025-02 |
+| [Agentic Image Generation in the Wild](https://arxiv.org/abs/2610.23269) | [GitHub](https://github.com/RUCAIBox/Agentic-ImageGen-Wild) [![Stars](https://img.shields.io/github/stars/RUCAIBox/Agentic-ImageGen-Wild?style=flat&label=stars)](https://github.com/RUCAIBox/Agentic-ImageGen-Wild/stargazers) | - | L1 | Image | Locate-Corroborate-Isolate reference retrieval before generation | 2026-10 |
 
 ### Temporal and Camera Specifications
 
@@ -193,6 +195,8 @@ L1 controllers construct the generator-facing specification before execution. Th
 | [MovieAgent](https://arxiv.org/abs/2503.07314) | [GitHub](https://github.com/showlab/MovieAgent) [![Stars](https://img.shields.io/github/stars/showlab/MovieAgent?style=flat&label=stars)](https://github.com/showlab/MovieAgent/stargazers) | [Website](https://weijiawu.github.io/MovieAgent/) | L1 | Video | Hierarchical script, scene, and shot conditioning | 2025-03 |
 | [VideoGen-of-Thought](https://arxiv.org/abs/2412.02259) | [GitHub](https://github.com/DuNGEOnmassster/VideoGen-of-Thought) [![Stars](https://img.shields.io/github/stars/DuNGEOnmassster/VideoGen-of-Thought?style=flat&label=stars)](https://github.com/DuNGEOnmassster/VideoGen-of-Thought/stargazers) | [Website](https://cheliosoops.github.io/VGoT/) | L1 | Video | Shot and identity planning | 2024-12 |
 | [MotionCoach: Constructing Multimodal Guidance for Video Professional Motion Editing](https://arxiv.org/abs/2610.12963) | - | - | L1 | Video, Editing | Agent-constructed motion prompts and reference clips for a fixed video editor | 2026-10 |
+| [PhysPlan: Grounded Physical State Reasoning and Graph-Guided Optimization for Physically Plausible Video Generation](https://arxiv.org/abs/2609.13006) | - | [Website](https://physplan.github.io/) | L1 | Video | Grounded physical-state graphs specify keyframes and fixed graph-guided diffusion objectives | 2026-07 |
+| [PhyEvolve: Multi-Agent State-Evolution Planning for Physics-Aware Video Generation](https://arxiv.org/abs/2610.30717) | - | - | L1 | Video | Reviewed causal physical-state evolution is compiled into a replacement video prompt | 2026-10 |
 
 ### Structured Content Specifications
 
@@ -259,6 +263,7 @@ L2 controllers select and invoke actual visual operations before observing their
 | [DreamFactory](https://arxiv.org/abs/2408.11788) | - | - | L1+L2 | Video | Multi-scene workflow | 2024-08 |
 | [Mora](https://arxiv.org/abs/2403.13248) | [GitHub](https://github.com/lichao-sun/Mora) [![Stars](https://img.shields.io/github/stars/lichao-sun/Mora?style=flat&label=stars)](https://github.com/lichao-sun/Mora/stargazers) | - | L1+L2 | Video | Multi-agent video modules | 2024-03 |
 | [Unified Agentic Video Editing Across Levels of Complexity and Creativity](https://arxiv.org/abs/2609.12769) | - | - | L1+L2 | Video, Editing | Agent-selected editing operations for complex trailer construction | 2026-09 |
+| [MVWeaver: A Hierarchical Music Video Generation Agent with a Learned Song-to-Visual Bridge](https://arxiv.org/abs/2609.06478) | - | - | L1+L2 | Video | Shot plans route singing and non-singing content to different audiovisual generators | 2026-09 |
 
 ### Document and Interface Operations
 
@@ -277,6 +282,7 @@ L2 controllers select and invoke actual visual operations before observing their
 | [Vinedresser3D: Agentic Text-guided 3D Editing](https://arxiv.org/abs/2602.19542) | - | - | L1+L2 | 3D, Editing | View selection and 3D editing orchestration | 2026-02 |
 | [3D Space as a Scratchpad for Editable Text-to-Image Generation](https://arxiv.org/abs/2601.14602) | - | [Website](https://oindrilasaha.github.io/3DScratchpad/) | L1+L2 | 3D, Editing | 3D scratchpad tool orchestration | 2026-01 |
 | [Programmable World Model](https://arxiv.org/abs/2609.10540) | [GitHub](https://github.com/AlayaLab/pwm)[![Stars](https://img.shields.io/github/stars/AlayaLab/pwm?style=flat&label=stars)](https://github.com/AlayaLab/pwm/stargazers) | [Website](https://alaya-lab.github.io/pwm) | L1+L2 | Video, World | Agent-authored executable world program that mutates generated scene state | 2026-09 |
+| [Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds](https://arxiv.org/abs/2610.27999) | [GitHub](https://github.com/SkyworkAI/Matrix-Game) [![Stars](https://img.shields.io/github/stars/SkyworkAI/Matrix-Game?style=flat&label=stars)](https://github.com/SkyworkAI/Matrix-Game/stargazers) | [Website](https://matrix-game-v4-0.github.io/page/) | L1+L2 | Video, World | Coding agent creates or mutates executable game scenes and rules before generative rendering | 2026-10 |
 
 [Back to top](#awesome-agentic-visual-generation)
 
@@ -448,6 +454,14 @@ L3 controllers use an observed result to change a later generation action within
 | [Look Back to Move Forward (GenRevisit)](https://arxiv.org/abs/2610.16224) | - | - | L1+L2+L3 | Image, Editing | Joint selection of history candidates and next edits with backtracking to better branches | 2026-10 |
 | [Stride: Scale-Aware Multi-Agent Evolutionary Refinement for Infographic Generation](https://arxiv.org/abs/2610.13502) | [GitHub](https://github.com/SJTUSAI/Stride) | - | L1+L2+L3 | Image | Verifier routes global and local revision and accepts only score-improving candidates | 2026-10 |
 | [GATOR: Generative and Agentic 3D Object Reconstruction From Casual Images](https://arxiv.org/abs/2610.11215) | - | [Website](https://research.nvidia.com/labs/lpr/gator/) | L1+L2+L3 | 3D | Observation-driven edit-render-review refinement of generated 3D assets | 2026-10 |
+| [Do Video Generators Track the World Across Segments? A Benchmark and Method for World-State Reasoning in Video Continuation](https://arxiv.org/abs/2609.03673) | [GitHub](https://github.com/AMAP-ML/StateAgent) [![Stars](https://img.shields.io/github/stars/AMAP-ML/StateAgent?style=flat&label=stars)](https://github.com/AMAP-ML/StateAgent/stargazers) | - | L1+L3 | Video, World | Observed video-state updates condition subsequent video segments | 2026-09 |
+| [Better Call CineCrew: Consistent Ultra-Long Narrative-to-Film Generation](https://arxiv.org/abs/2609.07720) | - | [Website](https://jiabenchen.github.io/cinecrew/) | L1+L2+L3 | Video | Generated-clip dailies diagnoses drive localized FilmDSL revision and regeneration | 2026-09 |
+| [CamPilot: A Multi-Agent Cinematic Assistant for Camera-Controlled Movie Generation](https://arxiv.org/abs/2609.10943) | - | - | L1+L3 | Video | Generated-shot evaluation revises camera-work, shot descriptions, or generation conditions | 2026-09 |
+| [CogenPVG: Cognitive-Enhanced Reflective Multi-Agent Framework for Persuasive Video Generation](https://arxiv.org/abs/2609.25821) | - | - | L1+L2+L3 | Video | Generator-critic refinement of persuasive-video assets and editing | 2026-09 |
+| [HarnessIR: Harnessing Multimodal Foundation Models for Universal Real-World Image Restoration](https://arxiv.org/abs/2610.10133) | [GitHub](https://github.com/PolyU-VCLab/HarnessIR) [![Stars](https://img.shields.io/github/stars/PolyU-VCLab/HarnessIR?style=flat&label=stars)](https://github.com/PolyU-VCLab/HarnessIR/stargazers) | [Website](https://polyu-vclab.github.io/HarnessIR/) | L1+L3 | Image, Editing | Verification-triggered restoration retries from the original input | 2026-10 |
+| [Reasoning-Informed Visual Editing](https://arxiv.org/abs/2610.12343) | [GitHub](https://github.com/VisionXLab/RISEBench) [![Stars](https://img.shields.io/github/stars/VisionXLab/RISEBench?style=flat&label=stars)](https://github.com/VisionXLab/RISEBench/stargazers) | - | L1+L2+L3 | Image, Editing | Verifier selects pass, localized generative or programmatic repair, or replanning | 2026-10 |
+| [Manga2Animate: An Agentic Framework for Faithful Manga Animation with Script and Storyboard Planning](https://arxiv.org/abs/2610.26851) | [GitHub](https://github.com/annchenn/Manga2Animate) [![Stars](https://img.shields.io/github/stars/annchenn/Manga2Animate?style=flat&label=stars)](https://github.com/annchenn/Manga2Animate/stargazers) | [Website](https://annchenn.github.io/Manga2Animate/) | L1+L3 | Image, Video | Generated storyboard critique revises scripts and future synthesis | 2026-10 |
+| [Auto-Director: Leveraging Multi-Agent Collaboration for Autonomous Video Editing](https://arxiv.org/abs/2610.28346) | - | - | L1+L2+L3 | Video, Editing | Footage editing with alignment and pacing critique followed by revision | 2026-10 |
 
 ### Structured and Execution Feedback
 
@@ -508,6 +522,9 @@ L3 controllers use an observed result to change a later generation action within
 | [VisStateCoder: State-Aware Generation of Deployable Websites from Visual Prototypes and Requirements](https://arxiv.org/abs/2610.17861) | - | - | L1+L2+L3 | UI | Project state graph links code, interactions, and render evidence for scoped file repair | 2026-10 |
 | [CADFather: Autonomous CAD Reconstruction through Coordinated Tool Use](https://arxiv.org/abs/2610.09127) | [GitHub](https://github.com/kulibinai/CADFather) | - | L1+L2+L3 | 3D | Quality- and validity-gated search over tool-extended CAD candidates | 2026-10 |
 | [MaLiang-Harness: A Programmable Path to Image and Video Generation](https://arxiv.org/abs/2609.34309) | [GitHub](https://github.com/gulucaptain/MaLiang-Harness) [![Stars](https://img.shields.io/github/stars/gulucaptain/MaLiang-Harness?style=flat&label=stars)](https://github.com/gulucaptain/MaLiang-Harness/stargazers) | - | L1+L2+L3 | Image, Video | Executable visual programs with versioned render evidence, checks, and rollback | 2026-09 |
+| [Recursive Code World Models: Building Complex Worlds through Recursive Scene Programs](https://arxiv.org/abs/2609.11499) | [GitHub](https://github.com/ZhiqiLi-CG/RecursiveCWM_code) [![Stars](https://img.shields.io/github/stars/ZhiqiLi-CG/RecursiveCWM_code?style=flat&label=stars)](https://github.com/ZhiqiLi-CG/RecursiveCWM_code/stargazers) | [Website](https://zhiqili-cg.github.io/RecursiveCWM) | L1+L2+L3 | 3D, World | Reference-render comparisons guide recursive scene-code edits, subdivision, and parent-scene repair | 2026-09 |
+| [HARMONY: Hierarchical Agentic Reasoning for MONocular Image-to-Scene Synthesis](https://arxiv.org/abs/2609.26793) | - | [Website](https://cwchenwang.github.io/harmony) | L1+L2+L3 | 3D | Rendered-scene and geometric feedback revise placement, object generation, and lighting | 2026-09 |
+| [Building Presentation Intelligence for High-Quality Slide Generation](https://arxiv.org/abs/2610.30888) | - | [Website](https://huggingface.co/Logics-MLLM/Logics-PPT-Qwen3.6-35B-A3B-RL) | L1+L2+L3 | Slide | OpenClaw/Max authoring configuration uses screenshot inspection and targeted HTML repair | 2026-10 |
 
 ### Physical and Constraint Feedback
 
@@ -533,6 +550,9 @@ L3 controllers use an observed result to change a later generation action within
 | [Inverse Garment Design with Visual Agents (DressAgent)](https://arxiv.org/abs/2610.15582) | [GitHub](https://github.com/nxjiang-jnx/dress-agent) | [Website](https://nxjiang-jnx.github.io/dress-agent) | L1+L2+L3 | 3D, Editing | Cloth-simulation and visual critique loops refine multi-layer garment patterns | 2026-10 |
 | [CANDO: Cooperative Agentic Network for Layout Design Optimization](https://arxiv.org/abs/2610.10044) | - | - | L1+L2+L3 | UI, Image | Verification feedback drives iterative facility-layout revision | 2026-10 |
 | [Awomo-SimDataEngine: Agentic Simulation-Ready World Generation](https://arxiv.org/abs/2610.02274) | - | [Dataset](https://huggingface.co/datasets/Auwomo/Awomo-SimDataEngine) | L1+L2+L3 | 3D, World | Graph-native build, validate, and localized-repair loop for sim-ready scenes | 2026-10 |
+| [Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark](https://arxiv.org/abs/2610.13947) | [GitHub](https://github.com/physicalvision/Artisan) [![Stars](https://img.shields.io/github/stars/physicalvision/Artisan?style=flat&label=stars)](https://github.com/physicalvision/Artisan/stargazers) | [Website](https://physicalvision.github.io/artisan/) | L1+L2+L3 | 3D | Articulated-asset construction with simulation-guided repair | 2026-10 |
+| [Can It Actually Work? Synthesizing Functional CAD Mechanisms](https://arxiv.org/abs/2610.26861) | [GitHub](https://github.com/thegenlab/fun-CAD-harness) [![Stars](https://img.shields.io/github/stars/thegenlab/fun-CAD-harness?style=flat&label=stars)](https://github.com/thegenlab/fun-CAD-harness/stargazers) | [Website](https://thegenlab.ai/funcad/) | L1+L2+L3 | 3D | Candidate-specific functional simulation tests guide CAD revisions | 2026-10 |
+| [BrickWright: Agentic Creation of Physically Feasible Brick Builds](https://arxiv.org/abs/2610.31651) | [GitHub](https://github.com/AvaLovelace1/brickwright) [![Stars](https://img.shields.io/github/stars/AvaLovelace1/brickwright?style=flat&label=stars)](https://github.com/AvaLovelace1/brickwright/stargazers) | [Website](https://avalovelace1.github.io/brickwright/) | L1+L2+L3 | 3D | Executable brick-build validation and render-guided code repair | 2026-10 |
 
 ### Human Review Feedback
 
@@ -568,6 +588,7 @@ L4 controllers retain completed-task experience that changes decisions on later 
 | [BrandFusion](https://arxiv.org/abs/2603.02816) | - | [Website](https://zihao-ai.github.io/brandfusion/) | L1+L2+L4 | Video | User-feedback experience pool for later brand-integration strategies | 2026-03 |
 | [UniVA](https://arxiv.org/abs/2511.08521) | [GitHub](https://github.com/UniVA-Verse/univa) [![Stars](https://img.shields.io/github/stars/UniVA-Verse/univa?style=flat&label=stars)](https://github.com/UniVA-Verse/univa/stargazers) | [Website](https://univa.online/) | L1+L2+L3+L4 | Video | Persistent trajectory and user-preference memory for later workflows | 2025-11 |
 | [TemplateCraft: Agentic Visual Template Generation](https://arxiv.org/abs/2609.31451) | - | - | L1+L2+L3+L4 | Image, Video | Completed-task errors and revision traces are retained for future template workflows | 2026-09 |
+| [ImageRSI: Verification-Driven Recursive Self-Improvement for Agentic Image Generation](https://arxiv.org/abs/2610.32120) | - | - | L1+L3+L4 | Image, Editing | Validated cross-task repair experience and offline judge updates | 2026-10 |
 
 ### Reusable Procedures and Skills
 
@@ -581,6 +602,8 @@ L4 controllers retain completed-task experience that changes decisions on later 
 | [SceneCraft](https://arxiv.org/abs/2403.01248) | - | - | L1+L2+L3+L4 | 3D | Cross-query spatial skill library | 2024-03 |
 | [SkillIR: Evolving Scene-Aware Skills for Agentic Image Restoration](https://arxiv.org/abs/2609.21468) | - | - | L1+L2+L3+L4 | Image, Editing | Successful restoration trajectories update reusable skills across images | 2026-09 |
 | [PhySGA: A Physics-Space Grounded Agentic Framework for Generalizable and Interactive 3D Composition](https://arxiv.org/abs/2610.20560) | [GitHub](https://github.com/AgenticEI/PhySGA) | [Website](https://agenticei.github.io/PhySGA-page/) | L1+L2+L3+L4 | 3D, World | Simulation-grounded interaction experience is written to a cross-task skill library | 2026-10 |
+| [SkillPE: Creativity-Oriented Cinematic Skill Evolution for Text-to-Video Prompt Engineering](https://arxiv.org/abs/2609.34335) | [GitHub](https://github.com/Ais0n/SkillPE) [![Stars](https://img.shields.io/github/stars/Ais0n/SkillPE?style=flat&label=stars)](https://github.com/Ais0n/SkillPE/stargazers) | - | L1+L4 | Video | Development-rollout assessment selects a persistent cinematic skill library for held-out prompt control | 2026-09 |
+| [Agentic Physics-Grounded Video Generation via Memory-Augmented In-Context Reasoning](https://arxiv.org/abs/2610.23677) | [GitHub](https://github.com/xxkkxxx/PhysRepair) [![Stars](https://img.shields.io/github/stars/xxkkxxx/PhysRepair?style=flat&label=stars)](https://github.com/xxkkxxx/PhysRepair/stargazers) | [Website](https://xxkkxxx.github.io/PhysRepair-Website/) | L1+L3+L4 | Video, Editing | Causally localized repair with cross-case trajectory write-back | 2026-10 |
 
 ### Executable Workflows and Harnesses
 
@@ -592,6 +615,7 @@ L4 controllers retain completed-task experience that changes decisions on later 
 | [COMFYCLAW: Self-Evolving Skill Harnesses for Image Generation Workflows](https://arxiv.org/abs/2607.01709) | [GitHub](https://github.com/Moms-Organic-Agent-Lab/comfyclaw) [![Stars](https://img.shields.io/github/stars/Moms-Organic-Agent-Lab/comfyclaw?style=flat&label=stars)](https://github.com/Moms-Organic-Agent-Lab/comfyclaw/stargazers) | - | L1+L2+L3+L4 | Image | Cross-task memory or skill evolution | 2026-07 |
 | [VideoWeaver](https://arxiv.org/abs/2606.08091) | [GitHub](https://github.com/JianhuiWei7/VideoWeaver) [![Stars](https://img.shields.io/github/stars/JianhuiWei7/VideoWeaver?style=flat&label=stars)](https://github.com/JianhuiWei7/VideoWeaver/stargazers) | - | L1+L2+L3+L4 | Video | Evaluation and evolution of workflow skills | 2026-06 |
 | [Automatic Method Illustration Generation for AI Scientific Papers via Drawing Middleware Creation, Evolution, and Orchestration](https://arxiv.org/abs/2603.29590) | - | - | L1+L2+L3+L4 | Image | Reusable drawing-middleware evolution | 2026-03 |
+| [VEvo-Harness: Causally-Guarded Self-Evolving Harness for Agentic Image Generation](https://arxiv.org/abs/2610.39158) | - | - | L1+L2+L3+L4 | Image, Editing | Causally gated skill patches and persistent harness memory | 2026-10 |
 
 ### Policy and Model Updates
 
@@ -603,6 +627,8 @@ L4 controllers retain completed-task experience that changes decisions on later 
 | [SIDiffAgent](https://arxiv.org/abs/2602.02051) | - | - | L1+L3+L4 | Image | Self-improving generation behavior | 2026-02 |
 | [JarvisEvo: Towards a Self-Evolving Photo Editing Agent with Synergistic Editor-Evaluator Optimization](https://arxiv.org/abs/2511.23002) | - | [Website](https://jarvisevo.vercel.app/) | L1+L2+L3+L4 | Image, Editing | Synergistic editor-evaluator evolution | 2025-11 |
 | [RSIgen: Reciprocal Self-Improvement for Agentic Visual Generation](https://arxiv.org/abs/2610.18688) | - | - | L1+L2+L3+L4 | Image, Editing | Trajectory-diagnosed reciprocal updates to agent policy and generator | 2026-10 |
+| [AgenticGen: Reward-Guided Agentic Video Generation for Advertising](https://arxiv.org/abs/2609.09187) | - | - | L1+L2+L4 | Video | Completed advertising-delivery trajectories update strategy and draft policies for later products | 2026-08 |
+| [CineEvolve: An Agentic Self-Evolution Framework for Cinematic Multi-Shot Video Generation](https://arxiv.org/abs/2610.29590) | [GitHub (announced)](https://github.com/JingZhe-8/CineEvolve) [![Stars](https://img.shields.io/github/stars/JingZhe-8/CineEvolve?style=flat&label=stars)](https://github.com/JingZhe-8/CineEvolve/stargazers) | - | L1+L2+L3+L4 | Video | Director rollouts refresh the next critic pool and persistently update the shared creation-control policy | 2026-10 |
 
 [Back to top](#awesome-agentic-visual-generation)
 
@@ -640,6 +666,9 @@ These resources evaluate outputs, trajectories, controllers, or supporting signa
 | [World Editing: Intervening on Executable Worlds at Increasing Depth](https://arxiv.org/abs/2610.02331) | - | - | Executable game-world editing | Agent benchmark | 2026-10 |
 | [Code4Scene: Benchmarking Coding Agents for Constructing and Editing 3D Scenes](https://arxiv.org/abs/2609.36777) | - | - | Unreal scene construction and editing | Agent benchmark | 2026-09 |
 | [Timeline-Bench: Evaluating Agents on Realistic Video-Editing Tasks, from Raw Footage to Final Cut](https://arxiv.org/abs/2609.35143) | - | [Website](https://timelinebench.tensortest.com/) | Real-world timeline-based video editing | Agent benchmark | 2026-09 |
+| [CutCraft](https://arxiv.org/abs/2609.08275) | [GitHub](https://github.com/AlibabaResearch/cut-craft-bench) [![Stars](https://img.shields.io/github/stars/AlibabaResearch/cut-craft-bench?style=flat&label=stars)](https://github.com/AlibabaResearch/cut-craft-bench/stargazers) | - | Multi-shot audiovisual editing-technique execution | Agent benchmark | 2026-09 |
+| [Don't Read the Log](https://arxiv.org/abs/2609.28564) | - | - | Video-generation verifier contamination | Verifier reliability study | 2026-09 |
+| [BrickBench](https://arxiv.org/abs/2610.12452) | - | [Website](http://www.brickben.ch) | Text-conditioned brick assembly design | Agent benchmark | 2026-10 |
 
 ### Output benchmarks and evaluators
 
@@ -654,6 +683,9 @@ These resources evaluate outputs, trajectories, controllers, or supporting signa
 | [VBench](https://arxiv.org/abs/2311.17982) | [GitHub](https://github.com/Vchitect/VBench) [![Stars](https://img.shields.io/github/stars/Vchitect/VBench?style=flat&label=stars)](https://github.com/Vchitect/VBench/stargazers) | [Website](https://vchitect.github.io/VBench-project/) | Video | Appearance and temporal quality | 2023-11 |
 | [VideoArgus: Agentic Rubric-Grounded Unified Evaluation for Video Generation and Editing](https://arxiv.org/abs/2608.05485) | [GitHub](https://github.com/zzzmyyzeng/VideoArgus) [![Stars](https://img.shields.io/github/stars/zzzmyyzeng/VideoArgus?style=flat&label=stars)](https://github.com/zzzmyyzeng/VideoArgus/stargazers) | [Website](https://zzzmyyzeng.github.io/VideoArgus) | Video generation and editing | Rubric-grounded evaluator | 2026-08 |
 | [VisEditBench: Can Vision-Language Models Edit Visualization Code from Multimodal Feedback?](https://arxiv.org/abs/2608.10408) | [GitHub](https://github.com/vis-nlp/VisEditBench) [![Stars](https://img.shields.io/github/stars/vis-nlp/VisEditBench?style=flat&label=stars)](https://github.com/vis-nlp/VisEditBench/stargazers) | - | Visualization-code editing from multimodal feedback | Editing benchmark | 2026-08 |
+| [Orbia](https://arxiv.org/abs/2610.20693) | [GitHub](https://github.com/worldbench/Orbia) [![Stars](https://img.shields.io/github/stars/worldbench/Orbia?style=flat&label=stars)](https://github.com/worldbench/Orbia/stargazers) | [Website](https://orbia-bench.github.io/) | Video, World | Input preservation, generated-content persistence, and 3D consistency | 2026-10 |
+| [PVBench](https://arxiv.org/abs/2610.26711) | - | - | Video, World | Object-level geometry, motion, and physical-law measurements | 2026-10 |
+| [QueryDiagramEval / MermaidBench](https://aclanthology.org/2026.wnut-1.18/) | - | - | Image | Compilation-gated, structure-grounded diagram evaluation | 2026-10 |
 
 ### Slide and user-interface benchmarks
 
@@ -669,6 +701,7 @@ These resources evaluate outputs, trajectories, controllers, or supporting signa
 | [PresentBench: A Fine-Grained Rubric-Based Benchmark for Slide Generation](https://arxiv.org/abs/2603.07244) | [GitHub](https://github.com/PresentBench/PresentBench) [![Stars](https://img.shields.io/github/stars/PresentBench/PresentBench?style=flat&label=stars)](https://github.com/PresentBench/PresentBench/stargazers) | [Website](https://presentbench.github.io/) | Slide | Instance-specific checklist evaluation | 2026-03 |
 | [Talk to Your Slides: High-Efficiency Slide Editing via Language-Driven Structured Data Manipulation (TSBench)](https://arxiv.org/abs/2505.11604) | [GitHub](https://github.com/KyuDan1/Talk-to-Your-Slides) [![Stars](https://img.shields.io/github/stars/KyuDan1/Talk-to-Your-Slides?style=flat&label=stars)](https://github.com/KyuDan1/Talk-to-Your-Slides/stargazers) | - | Slide | Human-authored slide-editing instructions | 2025-05 |
 | [Vision2Web: A Hierarchical Benchmark for Visual Website Development with Agent Verification](https://arxiv.org/abs/2603.26648) | [GitHub](https://github.com/zai-org/Vision2Web) [![Stars](https://img.shields.io/github/stars/zai-org/Vision2Web?style=flat&label=stars)](https://github.com/zai-org/Vision2Web/stargazers) | [Website](https://vision2web-bench.github.io/) | UI | Static, interactive, and full-stack visual website development | 2026-03 |
+| [RefCraft](https://arxiv.org/abs/2610.26826) | - | [Website](https://wangyuchi369.github.io/refcraft/) | UI | Visual-reference-conditioned web development | 2026-10 |
 
 ### Reward models, verifiers, and preference data
 
@@ -680,6 +713,8 @@ These resources evaluate outputs, trajectories, controllers, or supporting signa
 | [Personalized Reward Modeling for Text-to-Image Generation](https://arxiv.org/abs/2511.19458) | - | - | Text-to-image | User-conditioned reward | 2025-11 |
 | [Pick-a-Pic](https://arxiv.org/abs/2305.01569) | [GitHub](https://github.com/yuvalkirstain/pickscore) [![Stars](https://img.shields.io/github/stars/yuvalkirstain/pickscore?style=flat&label=stars)](https://github.com/yuvalkirstain/pickscore/stargazers) | - | Text-to-image | Pairwise preference dataset | 2023-05 |
 | [Unified Multimodal Chain-of-Thought Reward Model](https://arxiv.org/abs/2505.03318) | - | [Website](https://codegoat24.github.io/UnifiedReward/) | Multimodal generation | Reasoning-based reward | 2025-05 |
+| [SpatialCritic / SpaRW-Eval](https://arxiv.org/abs/2610.14852) | - | - | Spatial text-to-image generation | Tool-grounded spatial reward and verification | 2026-10 |
+| [3DVerifierBench](https://arxiv.org/abs/2610.22360) | - | [Website](https://ai-yeslab.github.io/3DVerifier-page/) | 3D content generation and verification | Multi-view verification, rejection explanations, and counterfactual supervision | 2026-10 |
 
 [Back to top](#awesome-agentic-visual-generation)
 
