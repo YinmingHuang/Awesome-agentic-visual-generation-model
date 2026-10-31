@@ -1,7 +1,7 @@
 # Awesome Agentic Visual Generation
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![WeChat Community](https://img.shields.io/badge/WeChat-Join_Community-07C160?logo=wechat&logoColor=white)](assets/wechat_group.png)
+[![WeChat Community](https://img.shields.io/badge/WeChat-Join_Community-07C160?logo=wechat&logoColor=white)](assets/wechat_group_v2.png)
 [![Discord Community](https://img.shields.io/badge/Discord-Join_Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/C53CkwJDF)
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.06758)
 
@@ -768,14 +768,15 @@ L0 is an inclusion boundary, not an agent category. The following systems are im
 
 Welcome to join our community to discuss agentic visual generation:
 
-- [WeChat community](assets/wechat_group.png) — open the QR code and scan it with WeChat.
+- [WeChat community](assets/wechat_group_v2.png) — open the QR code and scan it with WeChat.
 - [Discord community](https://discord.gg/C53CkwJDF) — join the discussion on Discord.
 
 <p align="center">
-  <a href="assets/wechat_group.png">
-    <img src="assets/wechat_group.png" alt="WeChat community QR code" width="360">
+  <a href="assets/wechat_group_v2.png">
+    <img src="assets/wechat_group_v2.png" alt="WeChat community QR code" width="360">
   </a>
 </p>
+
 
 ## Contact
 
